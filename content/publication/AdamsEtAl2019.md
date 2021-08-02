@@ -30,10 +30,9 @@ title: Aquaplanet models on eccentric orbits — effects of rotation rate on obs
 publication_types:
   - "2"
 authors:
-  - Adams
-  - Arthur D. and Boos
-  - William R. and Wolf
-  - Eric T.
+  - Arthur D. Adams
+  - William R. Boos
+  - Eric T. Wolf
 publication: Astronomical Journal
 publication_short: "*Astronomical Journal*, 2019, **157**, 189(19pp),
   doi:10.3847/1538-3881/ab107f"
