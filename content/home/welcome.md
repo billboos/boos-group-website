@@ -1,5 +1,5 @@
 ---
-widget: team members
+widget: people
 headless: true
 weight: 10
 title: Research group led by William R. Boos
