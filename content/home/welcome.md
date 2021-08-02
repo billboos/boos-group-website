@@ -1,10 +1,8 @@
 ---
-widget: hero
+widget: team members
 headless: true
 weight: 10
-title: |
-  Boos  
-  Research Group
+title: Research group led by William R. Boos
 hero_media: welcome.jpg
 widget_id: group-summary
 design:
