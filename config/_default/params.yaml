@@ -5,10 +5,10 @@
 
 # Appearance
 
-theme: classic
+theme: minimal
 day_night: false
 font: native
-font_size: M
+font_size: L
 
 # SEO
 
