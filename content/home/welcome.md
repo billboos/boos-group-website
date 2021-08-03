@@ -1,14 +1,15 @@
 ---
 widget: people
+widget_id: group-summary
 headless: true
 weight: 10
 title: ""
-hero_media: welcome.jpg
-widget_id: group-summary
+active: true
 design:
   columns: "1"
   css_style: null
   css_class: null
+hero_media: welcome.jpg
 ---
 
 <br>
