@@ -8,6 +8,7 @@ design:
   columns: "1"
   css_style: null
   css_class: null
+height: 100px
 
 ---
 
