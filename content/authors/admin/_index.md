@@ -1,71 +1,39 @@
 ---
-# Display name
-title: William R. Boos
-
-# Is this the primary user of the site?
-superuser: true
-
-# Role/position
 role: Associate Professor
-
-# Organizations/Affiliations
-organizations:
-- name: University of California, Berkeley
-  url: ""
-
-# Short bio (displayed in user profile at end of posts)
-# bio: My research interests include distributed robotics, mobile computing and programmable matter.
-
 interests:
-- Atmospheric dynamics
-- Tropical climate, including monsoons and tropical cyclones
-- Earth's hydrological cycle
-
-
+  - Atmospheric dynamics
+  - Tropical climate, including monsoons and tropical cyclones
+  - Earth's hydrological cycle
+social:
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:william.boos@berkeley.edu
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/BillBoos
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=AnKqc8UAAAAJ&hl=en&oi=ao
+organizations:
+  - name: University of California, Berkeley
+    url: ""
 education:
   courses:
-  - course: Ph.D. in Atmospheric Science
-    institution: MIT
-    year: 2008
-  - course: M.Sc. in Geosystems
-    institution: MIT
-    year: 2002
-  - course: B.S. in Physics, B.A. in Math
-    institution: State University of New York, Binghamton
-    year: 1997
-
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:william.boos@berkeley.edu'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/BillBoos
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=AnKqc8UAAAAJ&hl=en&oi=ao
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
+    - course: Ph.D. in Atmospheric Science
+      institution: MIT
+      year: 2008
+    - course: M.Sc. in Geosystems
+      institution: MIT
+      year: 2002
+    - course: B.S. in Physics, B.A. in Math
+      institution: State University of New York, Binghamton
+      year: 1997
+superuser: true
 user_groups:
-- Principal Investigator
+  - Principal Investigator
+highlight_name: false
+title: William R. Boos
+email: ""
 ---
 
 William Boos is an associate professor in the Department of Earth and Planetary Science at UC Berkeley, and a Faculty Scientist at Lawrence Berkeley National Laboratory.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
