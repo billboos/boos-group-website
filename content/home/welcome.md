@@ -1,5 +1,4 @@
 ---
-widget: none
 widget_id: group-summary
 headless: true
 weight: 2
