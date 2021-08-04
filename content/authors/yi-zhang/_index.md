@@ -11,5 +11,5 @@ social:
     icon: globe
 superuser: false
 user_groups:
-  - Postdoctoral-Scientists
+  - Postdoctoral Scientists
 ---
