@@ -9,8 +9,8 @@ design:
   columns: "1"
   css_style: null
   css_class: null
-spacing:
-  passing: ["20px","0","20px","0"]
+# spacing:
+#  passing: ["20px","0","20px","0"]
 # height: 50px
 
 ---
