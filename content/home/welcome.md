@@ -1,9 +1,9 @@
 ---
 widget: blank
-#widget_id: group-summary
+# widget_id: group-summary
 headless: true
 weight: 2
-title: ""
+# title: ""
 active: true
 design:
   columns: "1"
