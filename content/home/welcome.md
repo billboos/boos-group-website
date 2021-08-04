@@ -1,5 +1,6 @@
 ---
-widget_id: group-summary
+widget: blank
+#widget_id: group-summary
 headless: true
 weight: 2
 title: ""
@@ -8,6 +9,8 @@ design:
   columns: "1"
   css_style: null
   css_class: null
+#spacing:
+#  passing: ["20px","0","20px","0"]
 height: 50px
 
 ---
