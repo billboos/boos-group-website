@@ -7,7 +7,7 @@ social:
   - display:
       header: false
     link: https://scholar.princeton.edu/yizhang/home
-    icon_pack: far
+    icon_pack: fab
     icon: globe
 superuser: false
 user_groups:
