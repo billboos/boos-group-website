@@ -9,7 +9,7 @@ social:
     link: https://scholar.princeton.edu/yizhang/home
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=AnKqc8UAAAAJ&hl=en&oi=ao
+    link: https://scholar.google.com/citations?user=bbaxFZoAAAAJ&hl=en&oi=sra
 superuser: false
 user_groups:
   - Postdoctoral Scientists
