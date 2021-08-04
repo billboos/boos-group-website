@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Principal Investigators
+- Principal Investigator
 ---
 
 William Boos is an associate professor in the Department of Earth and Planetary Science at UC Berkeley, and a Faculty Scientist at Lawrence Berkeley National Laboratory.
