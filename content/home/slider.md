@@ -7,7 +7,7 @@ weight: 1
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval: 3000
+interval: 6000
 
 # Minimum slide height.
 # Specify a height to ensure a consistent height for each slide.
@@ -16,14 +16,14 @@ height: 600px
 
 item:
   - overlay_img: BangladeshMonsoon.jpg  # Image path relative to your `assets/media/` folder
-    #title: Hello
-    #content: 'I am center aligned 😄'
+    # title: Hello
+    # content: 'I am center aligned 😄'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
-    #overlay_color: '#666'  # An HTML color value.
-    #overlay_filter: 1  # Darken the image. Value in range 0-1.
+    # overlay_color: '#666'  # An HTML color value.
+    # overlay_filter: 1  # Darken the image. Value in range 0-1.
     # Call to action button (optional).
     #   Activate the button by specifying a URL and button label below.
     #   Deactivate by commenting out parameters, prefixing lines with `#`.
@@ -32,16 +32,16 @@ item:
     # cta_icon_pack: fas
     # cta_icon: graduation-cap
   - overlay_img: 'NAmericanMonsoon.jpg'
-    #title: Left
-    #content: 'I am left aligned 😄'
-    #align: left
-    #overlay_color: '#555'
+    # title: Left
+    # content: 'I am left aligned 😄'
+    # align: left
+    # overlay_color: '#555'
     overlay_filter: 1
   - overlay_img: 'Sahara.A2003032.1215.1km.jpg'
-    #title: Right
-    content: 'I am right aligned 😄'
-    align: right
-    overlay_color: '#333'
+    # title: Right
+    # content: 'I am right aligned 😄'
+    # align: right
+    # overlay_color: '#333'
     overlay_filter: 1
   - overlay_img: 'IndianOceanEddies.jpg'
     overlay_filter: 1
