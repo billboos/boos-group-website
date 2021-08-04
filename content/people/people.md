@@ -20,7 +20,7 @@ content:
   - Postdoctoral Scientists
   - Graduate Students
   - Undergraduate Interns
-  - Research Associates
+  - Researchers
 design:
   show_interests: false
   show_role: true
