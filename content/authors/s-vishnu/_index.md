@@ -12,5 +12,5 @@ social:
     label: Google Scholar
 superuser: false
 user_groups:
-  - Postdoctoral Scholars
+  - Postdoctoral Scientists
 ---
