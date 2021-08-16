@@ -24,7 +24,7 @@ abstract: For an imposed thermal forcing localized off the equator, it is known
   feedback. The possible relevance of these results to the onset of monsoons is
   discussed.
 links:
-- Journal site
+- name: Journal site
   url: http://dx.doi.org/10.1175/2008JAS2791.1
 url_pdf: pdf/BoosEmanuel2008a.pdf
 image_preview: ""
