@@ -1,7 +1,4 @@
 ---
-links:
-  - name: Journal site
-    url: https://www.nature.com/articles/s41561-018-0137-1
 abstract: "Global constraints on momentum and energy govern the variability of
   the rainfall belt in the intertropical convergence zone and the structure of
   the zonal mean tropical circulation. The continental-scale monsoon systems are
@@ -42,7 +39,10 @@ authors:
   - Adam H. Sobel
   - Shang-Ping Xie
 publication: "*Nature Geoscience*"
-publication_short: "*Nat. Geosci.*, 2018, **11**, 392-400, doi:10.1038/s41561-018-0137-1"
+publication_short: "*Nat. Geosci.*, **11**, 392-400, doi:10.1038/s41561-018-0137-1"
 date: 2018-06-02
+links:
+  - name: Journal site
+    url: https://www.nature.com/articles/s41561-018-0137-1
 selected: true
 ---
