@@ -1,5 +1,5 @@
 ---
-url_custom:
+links:
   - name: Journal site
     url: https://www.nature.com/articles/s41561-018-0137-1
 abstract: "Global constraints on momentum and energy govern the variability of
