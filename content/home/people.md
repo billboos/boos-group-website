@@ -16,11 +16,12 @@ content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
   user_groups:
-  - Principal Investigator
+  - Group Members
+<!--   - Principal Investigator
   - Postdoctoral Scientists
   - Graduate Students
   - Undergraduate Interns
-  - Researchers
+  - Researchers -->
 design:
   show_interests: false
   show_role: true
