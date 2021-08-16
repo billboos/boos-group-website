@@ -22,7 +22,7 @@ abstract: The first global climatology of monsoon low-pressure systems is
   Australia, with a shallow composite structure having a warm core in the lower
   troposphere and cyclonic potential vorticity confined to a thin near-surface
   layer. Low-pressure systems in nearly all monsoon regions are estimated to
-  account for a large fraction, from about 40{%} to more than 80{%}, of summer
+  account for a large fraction, from about 40% to more than 80%, of summer
   precipitation on the poleward edge of the climatological mean precipitation
   maxima.
 url_pdf: pdf/HurleyBoos2015.pdf
