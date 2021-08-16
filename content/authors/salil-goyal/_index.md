@@ -8,4 +8,5 @@ email: salilgoyal@berkeley.edu
 superuser: false
 user_groups:
   - Researchers
+  - Group Members
 ---
