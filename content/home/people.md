@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 3
 
-title: Group Members
-subtitle:
+title: 
+subtitle:  Group Members
 
 content:
   # Choose which groups/teams of users to display.
