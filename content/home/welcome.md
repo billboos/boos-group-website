@@ -3,10 +3,10 @@ widget: blank
 # widget_id: group-summary
 headless: true
 weight: 2
-# title: ""
+title: About
 active: true
 design:
-#  columns: "1"
+columns: 2
 #  css_style: null
 #  css_class: null
   spacing:
