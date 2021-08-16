@@ -28,6 +28,6 @@ design:
   show_social: true
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["6px","0px","0px","0px"]
+    padding: ["24px","0px","12px","0px"]
   
 ---
