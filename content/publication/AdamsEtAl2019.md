@@ -26,7 +26,8 @@ abstract: "Rotation and orbital eccentricity both strongly influence planetary
   rotation regimes might thus be distinguished with infrared observations for a
   range of viewing geometries."
 url_pdf: pdf/AdamsEtAl2019.pdf
-title: Aquaplanet models on eccentric orbits — effects of rotation rate on observables
+title: "Aquaplanet models on eccentric orbits: effects of the rotation rate on
+  observables"
 publication_types:
   - "2"
 authors:
@@ -38,5 +39,6 @@ publication_short: "*Astronomical Journal*, 2019, **157**, 189(19pp),
   doi:10.3847/1538-3881/ab107f"
 date: 2019-04-22
 selected: true
+doi: 10.3847/1538-3881/ab107f
 abstract_short: "2019"
 ---
