@@ -35,8 +35,9 @@ publication_short: "*Astronomical Journal*, 2019, **157**, 189(19pp),
   doi:10.3847/1538-3881/ab107f"
 date: 2019-04-22
 selected: true
-doi: 10.3847/1538-3881/ab107f
+# doi: 10.3847/1538-3881/ab107f
 abstract_short: "2019"
+
 links:
 - name: Journal site
   url: https://iopscience.iop.org/article/10.3847/1538-3881/ab107f/meta
