@@ -8,7 +8,7 @@ subtitle:
 weight: 5  # section position on page
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  # columns: '1'
+  columns: '2'
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["0px","0px","0px","0px"]
