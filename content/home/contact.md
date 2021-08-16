@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: Contact us
+title: Contact
 subtitle:
 
 content:
@@ -26,6 +26,6 @@ content:
       captcha: true
 
 design:
-  columns: '1'
+  columns: '2'
 ---
 
