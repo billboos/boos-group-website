@@ -1,4 +1,4 @@
-+++
+---
 selected: true
 title: "Explaining globally inhomogeneous future changes in monsoons using simple moist energy diagnostics"
 date: "2021-05-10"
@@ -8,7 +8,6 @@ authors:
   - William R. Boos
 publication: Journal of Climate
 publication_short: "*Journal of Climate*, in press
-
-+++
+---
 
 
