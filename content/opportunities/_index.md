@@ -5,9 +5,9 @@ math = true
 highlight = true 
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "image001.png"
-caption = ""
+# [header]
+# image = "image001.png"
+# caption = ""
 
 +++
 
