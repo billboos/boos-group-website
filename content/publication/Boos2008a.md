@@ -12,7 +12,7 @@ publication = "*J. Atmos. Sci.*"
 publication_short = "*J. Atmos. Sci.*, 2008, **65**, 3758-3778"
 selected = false
 title = "Wind-evaporation feedback and the axisymmetric transition to angular momentum-conserving Hadley flow"
-links:
+links =
   - name: "Journal site"
     url = "http://dx.doi.org/10.1175/2008JAS2791.1"
 
