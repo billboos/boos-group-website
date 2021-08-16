@@ -13,4 +13,5 @@ social:
 superuser: false
 user_groups:
   - Postdoctoral Scientists
+  - Group Members
 ---
