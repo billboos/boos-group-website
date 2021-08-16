@@ -2,7 +2,7 @@
 widget: blank
 # widget_id: group-summary
 headless: true
-weight: 2
+weight: 3
 title: About
 active: true
 design:
@@ -11,7 +11,7 @@ design:
 #  css_class: null
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
-  #  padding: ["15px","0px","0px","0px"]
+    padding: ["15px","0px","0px","0px"]
   #height: 400px
 
 ---
