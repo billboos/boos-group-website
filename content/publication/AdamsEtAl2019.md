@@ -1,8 +1,4 @@
 ---
-links:
-- name: Journal site
-  url: https://iopscience.iop.org/article/10.3847/1538-3881/ab107f/meta
-
 abstract: "Rotation and orbital eccentricity both strongly influence planetary
   climate. Eccentricities can often be measured for exoplanets, but rotation
   rates are currently difficult or impossible to constrain. Here we examine how
@@ -26,7 +22,6 @@ abstract: "Rotation and orbital eccentricity both strongly influence planetary
   planets with condensible atmospheric constituents in eccentric orbits,
   rotation regimes might thus be distinguished with infrared observations for a
   range of viewing geometries."
-url_pdf: pdf/AdamsEtAl2019.pdf
 title: "Aquaplanet models on eccentric orbits: effects of the rotation rate on
   observables"
 publication_types:
@@ -42,4 +37,8 @@ date: 2019-04-22
 selected: true
 doi: 10.3847/1538-3881/ab107f
 abstract_short: "2019"
+links:
+- name: Journal site
+  url: https://iopscience.iop.org/article/10.3847/1538-3881/ab107f/meta
+url_pdf: pdf/AdamsEtAl2019.pdf
 ---
