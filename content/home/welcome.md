@@ -6,7 +6,7 @@ weight: 2
 title: About
 active: true
 design:
-columns: "2"
+  columns: "2"
 #  css_style: null
 #  css_class: null
   spacing:
