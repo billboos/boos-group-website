@@ -30,5 +30,7 @@ design:
   #   4 = Citation (publication only)  
   view: 2
   columns: "2"
+  spacing:
+    padding: ["30px","0px","30px","0px"]
 ---
 
