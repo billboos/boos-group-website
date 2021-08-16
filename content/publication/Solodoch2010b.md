@@ -28,7 +28,7 @@ authors:
 math: true
 title: Excitation of Intraseasonal Variability in the Equatorial Atmosphere by
   Yanai Wave Groups via WISHE-Induced Convection
-publication: "*J. Atmos. Sci.*"
+publication: "*Journal of the Atmospheric Sciences*"
 publication_short: "*J. Atmos. Sci.*, 2010, **68**, 210-225"
 date: 2010-01-01
 selected: false
