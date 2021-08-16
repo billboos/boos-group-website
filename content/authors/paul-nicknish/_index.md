@@ -12,4 +12,5 @@ email: pnicknish2@berkeley.edu
 superuser: false
 user_groups:
   - Researchers
+  - Group Members
 ---
