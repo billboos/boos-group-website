@@ -31,6 +31,7 @@ education:
 superuser: true
 user_groups:
   - Principal Investigator
+  - Group Members
 highlight_name: false
 title: William R. Boos
 email: ""
