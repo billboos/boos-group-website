@@ -1,6 +1,6 @@
 ---
 title: Marysa Laguë
-role: James S. McDonnell Postdoctoral Fellow
+role: J.S. McDonnell Postdoctoral Fellow
 avatar_filename: avatar.jpg
 bio: Now sitting at Coldwater Lab & Center for Hydrology, Canada
 social:
