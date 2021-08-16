@@ -43,7 +43,7 @@ item:
     # align: right
     # overlay_color: '#333'
     overlay_filter: 1
-  - overlay_img: 'IndianOceanEddies.jpg'
+  - overlay_img: 'IndianOceanEddies2.jpg'
     overlay_filter: 1
 ---
 
