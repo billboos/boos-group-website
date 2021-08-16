@@ -11,7 +11,7 @@ design:
   columns: '2'
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["0px","0px","0px","0px"]
+    padding: ["30px","0px","30px","0px"]
 # height: 50px
 ---
 
