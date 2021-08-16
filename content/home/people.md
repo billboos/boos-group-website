@@ -7,9 +7,9 @@ widget: people
 headless: true
 
 # Order that this section appears on the page.
-weight: 3
+weight: 2
 
-title:  Group Members
+title: 
 subtitle: 
 
 content:
@@ -26,7 +26,7 @@ design:
   show_interests: false
   show_role: true
   show_social: true
-  columns: "2"
+  columns: '2'
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["48px","0px","48px","0px"]
