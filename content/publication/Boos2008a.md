@@ -17,10 +17,9 @@ abstract: >-
 
 
   These effects also occur for forcings that vary in a seasonal cycle, with the precise effect of WISHE depending on the peak amplitude of the forcing. For weak seasonally varying forcings, WISHE can abruptly increase the intensity of a local, viscous circulation, whereas for forcings of intermediate strength WISHE produces a transition to AMC flow when such a transition would not otherwise occur. For the strongest forcings, WISHE shifts the transition to AMC flow to a time earlier in the seasonal cycle. The possible relevance of these results to monsoon dynamics is discussed, as are possible effects of processes not represented in these axisymmetric models. 
-  
 links:
-  - Journal site
-  - url: http://dx.doi.org/10.1175/2007JAS2608.1
+- Journal site
+  url: http://dx.doi.org/10.1175/2007JAS2608.1
 url_pdf: pdf/BoosEmanuel2008b.pdf
 image_preview: ""
 publication_types:
