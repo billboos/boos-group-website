@@ -1,7 +1,8 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://iopscience.iop.org/article/10.3847/1538-3881/ab107f/meta
+links:
+- name: Journal site
+  url: https://iopscience.iop.org/article/10.3847/1538-3881/ab107f/meta
+
 abstract: "Rotation and orbital eccentricity both strongly influence planetary
   climate. Eccentricities can often be measured for exoplanets, but rotation
   rates are currently difficult or impossible to constrain. Here we examine how
