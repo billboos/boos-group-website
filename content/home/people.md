@@ -26,6 +26,7 @@ design:
   show_interests: false
   show_role: true
   show_social: true
+  columns: 2
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["48px","0px","48px","0px"]
