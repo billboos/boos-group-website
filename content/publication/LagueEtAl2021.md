@@ -11,7 +11,7 @@ authors:
   - Abigail L. S. Swann
   - William R. Boos
 publication: "*Journal of Climate*"
-publication_short: "*J. Climate*, **34**, 6651-6672, https://doi.org/10.1175/JCLI-D-20-0883.1"
+publication_short: "*J. Climate*, **34**, 6651-6672, doi:10.1175/JCLI-D-20-0883.1"
 abstract: Changes in land surface albedo and land surface evaporation modulate
   the atmospheric energy budget by changing temperatures, water vapor, clouds,
   snow and ice cover, and the partitioning of surface energy fluxes. Here
@@ -34,6 +34,10 @@ abstract: Changes in land surface albedo and land surface evaporation modulate
   the surface energy budget. However, the pattern of TOA radiation changes due
   to the water vapor and air temperature responses are highly correlated for
   these two forcings because both forcings lead to near-surface warming.
-date: 2021-05-11
+date: 2021-08-01
 selected: true
+links:
+- name: Journal site
+  url: https://doi.org/10.1175/JCLI-D-20-0883.1
+url_pdf: pdf/LagueEtAl2021.pdf
 ---
