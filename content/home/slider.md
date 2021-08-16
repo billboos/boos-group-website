@@ -31,7 +31,7 @@ item:
     # cta_url: 'https://example.org'
     # cta_icon_pack: fas
     # cta_icon: graduation-cap
-  - overlay_img: 'NAmericanMonsoon.jpg'
+  - overlay_img: 'NorthAmericanMonsoon20210702.jpg'
     # title: Left
     # content: 'I am left aligned 😄'
     # align: left
