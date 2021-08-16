@@ -1,7 +1,7 @@
 ---
 title: Finn O'Toole Boire
 role: Undergraduate intern
-avatar_filename: avatar
+avatar_filename: avatar.jpg
 bio: Physics major (UC Berkeley)
 social: []
 email: finn.boire@berkeley.edu
