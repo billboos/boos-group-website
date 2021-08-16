@@ -12,16 +12,17 @@ abstract: "The interannual variability of monsoon precipitation is described in
   interannual monsoon variability that emphasized ocean surface temperatures.
   After removing the variability linearly associated with an index of the El
   Ni{ñ}o-Southern Oscillation, positive monsoon precipitation anomalies are
-  shown to be associated with enhanced $\theta$ eb local to and slightly
-  poleward of the climatological $\theta$ eb maximum. The variations in
-  continental $\theta$ eb local to the monsoon precipitation maxima are mainly
-  due to variations in subcloud specific humidity, with changes in subcloud
-  temperature having the opposite sign. Motivated by the fact that some of these
-  subcloud humidity anomalies occur over deserts poleward of monsoon regions,
-  the relationship of 700-hPa flow with precipitation is examined, and enhanced
-  precipitation in several regions is found to covary with the properties of
-  shallow meridional circulations. The implications of these results for the
-  understanding of monsoon interannual variability are discussed. "
+  shown to be associated with enhanced $\\theta_{eb}$ local to and slightly
+  poleward of the climatological $\\theta_{eb}$ maximum. The variations in
+  continental $\\theta_{eb}$ local to the monsoon precipitation maxima are
+  mainly due to variations in subcloud specific humidity, with changes in
+  subcloud temperature having the opposite sign. Motivated by the fact that some
+  of these subcloud humidity anomalies occur over deserts poleward of monsoon
+  regions, the relationship of 700-hPa flow with precipitation is examined, and
+  enhanced precipitation in several regions is found to covary with the
+  properties of shallow meridional circulations. The implications of these
+  results for the understanding of monsoon interannual variability are
+  discussed. "
 url_pdf: pdf/HurleyBoos2013.pdf
 image_preview: ""
 publication_types:
