@@ -16,7 +16,7 @@ abstract: "Rotation and orbital eccentricity both strongly influence planetary
   the planet is eclipsed near periastron, as well as for either viewing geometry
   at e = 0.6. Rotation rates can nevertheless be distinguished using ratios of
   emission in different bands, one in the water vapor window with another in a
-  region of strong water absorption. These ratios vary over an orbit by 􏰂0.1
+  region of strong water absorption. These ratios vary over an orbit by ≲0.1
   dex for Earth-like rotation, but by 0.3–0.5 dex for pseudo-synchronous
   rotation because of large day-night contrast in upper-tropospheric water. For
   planets with condensible atmospheric constituents in eccentric orbits,
