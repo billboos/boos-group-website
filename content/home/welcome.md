@@ -11,7 +11,7 @@ design:
 #  css_class: null
   spacing:
   # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["30px","15px","30px","15px"]
+    padding: ["30px","0px","30px","0px"]
   #height: 400px
 
 ---
