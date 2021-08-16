@@ -1,5 +1,5 @@
 ---
-url_custom:
+links:
   - name: Journal site
     url: https://doi.org/10.1175/2010JAS3564.1
 abstract: The intraseasonal Madden-Julian oscillation (MJO) involves a slow
