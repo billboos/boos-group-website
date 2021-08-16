@@ -30,7 +30,7 @@ authors:
   - Michael Sigl
   - Jennifer R. Marlon
 publication: "*Nature Communications*"
-publication_short: "*Nat. Commun.*, 2017, **8**, doi:10.1038/s41467-017-00957-y"
+publication_short: "*Nat. Commun.*, **8**, doi:10.1038/s41467-017-00957-y"
 date: 2017-10-17
 selected: true
 abstract_short: Volcanic eruptions provide tests of human and natural system
