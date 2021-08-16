@@ -5,9 +5,9 @@ interests:
   - Tropical climate, including monsoons and tropical cyclones
   - Earth's hydrological cycle
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: mailto:william.boos@berkeley.edu
+  # - icon: envelope
+  #   icon_pack: fas
+  #  link: mailto:william.boos@berkeley.edu
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/BillBoos
