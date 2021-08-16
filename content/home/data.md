@@ -8,7 +8,7 @@ subtitle:
 weight: 6  # section position on page
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
+  columns: '2'
   padding: ["30px","0px","30px","0px"]
 # height: 50px
 ---
