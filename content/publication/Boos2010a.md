@@ -33,6 +33,9 @@ abstract: An envelope of convection that propagates both poleward and eastward
   a novel mechanism for the poleward propagation of intraseasonal convective
   anomalies and illustrate the need to evaluate theoretical models that use
   parameterized convection against cloud system–resolving models.
+links:
+- name: Journal site
+  url: http://journals.ametsoc.org/doi/abs/10.1175/2010JAS3515.1
 url_pdf: pdf/BoosKuang2010JAS.pdf
 image_preview: ""
 publication_types:
@@ -44,7 +47,7 @@ math: true
 title: Mechanisms of Poleward Propagating, Intraseasonal Convective Anomalies in
   Cloud System–Resolving Models
 publication: "*Journal of the Atmospheric Sciences*"
-publication_short: "*J. Atmos. Sci.*, 2010, **67**, 3673-3691"
+publication_short: "*J. Atmos. Sci.*, **67**, 3673-3691, doi:10.1175/2010JAS3515.1"
 date: 2010-01-01
 selected: false
 abstract_short: An envelope of convection that propagates both poleward and
