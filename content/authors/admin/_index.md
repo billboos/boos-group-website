@@ -34,7 +34,9 @@ user_groups:
   - Group Members
 highlight_name: false
 title: William R. Boos
-email: ""
+email: "william.boos@berkeley.edu"
+weight: 2
+
 ---
 
 William Boos is an associate professor in the Department of Earth and Planetary Science at UC Berkeley, and a Faculty Scientist at Lawrence Berkeley National Laboratory.
