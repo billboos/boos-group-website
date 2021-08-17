@@ -9,7 +9,13 @@ social:
     link: https://marysalague.com/
     icon_pack: fas
     icon: globe
-    label: Individual website
+    label: Personal website
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/marysalague
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=91D1lZsAAAAJ&hl=en&oi=ao
 education:
   courses:
     - course: Ph.D.
