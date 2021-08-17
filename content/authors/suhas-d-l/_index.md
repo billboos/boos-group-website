@@ -10,6 +10,9 @@ social:
     icon_pack: ai
     icon: google-scholar
     label: Google Scholar
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Suhas-Dl
 superuser: false
 user_groups:
   - Postdoctoral Scientists
