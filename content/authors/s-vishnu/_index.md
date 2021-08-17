@@ -4,9 +4,13 @@ role: Postdoctoral Scholar
 avatar_filename: avatar.jpg
 bio: Ph.D. (Indian National Centre for Ocean Information Services [INCOIS])
 social:
-  - display:
+  -  display:
       header: false
-    link: https://scholar.google.com/citations?user=wylrk1gAAAAJ&hl=en
+    link: https://sites.google.com/view/svishnu/home?authuser=1
+    icon_pack: fas
+    icon: globe
+    label: Personal website
+  - link: https://scholar.google.com/citations?user=wylrk1gAAAAJ&hl=en
     icon_pack: ai
     icon: google-scholar
     label: Google Scholar
