@@ -17,4 +17,7 @@ social:
     icon_pack: fas
     icon: globe
     label: Personal website
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/steampunc
 ---
