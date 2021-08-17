@@ -9,4 +9,12 @@ superuser: false
 user_groups:
   - Researchers
   - Group Members
+
+social:
+  - display:
+      header: false
+    link: http://steampunc.com
+    icon_pack: fas
+    icon: globe
+    label: Personal website
 ---
