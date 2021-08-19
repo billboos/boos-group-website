@@ -30,7 +30,7 @@ authors:
   - Michael Diaz
   - William R. Boos
 publication: "*Journal of the Atmospheric Sciences*"
-publication_short: "*J. Atmos. Sci.*, **78**, 2013-2027, https://doi.org/10.1175/JAS-D-20-0359.1"
+publication_short: "*J. Atmos. Sci.*, **78**, 2013-2027, doi:10.1175/JAS-D-20-0359.1"
 date: 2021-05-05
 selected: true
 abstract_short: "2021"
