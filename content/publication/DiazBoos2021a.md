@@ -1,8 +1,5 @@
 ---
-links:
-  - name: Journal site
-    url: https://journals.ametsoc.org/view/journals/atsc/aop/JAS-D-20-0286.1/JAS-D-20-0286.1.xml?webtoken=48e51972-2805-4630-bd66-24264f47541b
-  url_pdf: pdf/DiazBoos2021a.pdf
+
 abstract: "This study examines processes fundamental to the development of South
   Asian monsoon depressions using an array of integrations of an idealized
   convection-permitting numerical model. In each integration, a wave of
@@ -24,7 +21,6 @@ abstract: "This study examines processes fundamental to the development of South
   depression growth in South Asia is fostered by the coexistence of a strong
   low-level MSE gradient with strong meridional wind shear associated with the
   monsoon trough."
-
 title: "Evolution of idealized vortices in monsoon-like shears: application to
   monsoon depressions"
 publication_types:
@@ -33,8 +29,12 @@ authors:
   - Michael Diaz
   - William R. Boos
 publication: "*Journal of the Atmospheric Sciences*"
-publication_short: "*J. Atmos. Sci.*, **78**, 1207-1225. https://doi.org/10.1175/JAS-D-20-0286.1"
+publication_short: "*J. Atmos. Sci.*, **78**, 1207-1225, doi:10.1175/JAS-D-20-0286.1"
 date: 2021-04-01
 selected: true
 abstract_short: "2021"
+links:
+  - name: Journal site
+    url: https://journals.ametsoc.org/view/journals/atsc/78/4/JAS-D-20-0286.1.xml
+  url_pdf: pdf/DiazBoos2021a.pdf
 ---
