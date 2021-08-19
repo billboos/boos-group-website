@@ -21,7 +21,7 @@
           <input type="search" class="filter-search" placeholder="{{ i18n "search_placeholder" }}" autocapitalize="off"
           autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
         </div>
-        <div class="col-auto">
+        <!-- <div class="col-auto">
           <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
             <option value="*">{{ i18n "publication_type" }}</option>
             {{ $pub_types := partial "functions/get_pub_types" $ }}
@@ -31,7 +31,7 @@
             </option>
             {{ end }}
           </select>
-        </div>
+        </div>  -->
         <div class="col-auto">
           <select class="pub-filters form-control form-control-sm" data-filter-group="year">
             <option value="*">{{ i18n "date" }}</option>
