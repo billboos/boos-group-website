@@ -1,9 +1,9 @@
 ---
 role: Associate Professor
 interests:
-  - Atmospheric dynamics
-  - Tropical climate, including monsoons and tropical cyclones
-  - Earth's hydrological cycle
+#  - Atmospheric dynamics
+#  - Tropical climate, including monsoons and tropical cyclones
+#  - Earth's hydrological cycle
 social:
   # - icon: envelope
   #   icon_pack: fas
