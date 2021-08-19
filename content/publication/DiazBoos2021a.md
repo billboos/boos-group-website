@@ -34,7 +34,7 @@ date: 2021-04-01
 selected: true
 abstract_short: "2021"
 links:
-  - name: Journal site
-    url: https://journals.ametsoc.org/view/journals/atsc/78/4/JAS-D-20-0286.1.xml
-  url_pdf: pdf/DiazBoos2021a.pdf
+- name: Journal site
+  url: https://journals.ametsoc.org/view/journals/atsc/78/4/JAS-D-20-0286.1.xml
+url_pdf: pdf/DiazBoos2021a.pdf
 ---
