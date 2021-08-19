@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.3539
+links:
+- name: Journal site
+  url: https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.3539
 abstract: Potential vorticity (PV) has been used to understand the
   intensification and motion of a variety of tropical vortices. Here,
   atmospheric reanalyses and idealized models are used to understand how the
