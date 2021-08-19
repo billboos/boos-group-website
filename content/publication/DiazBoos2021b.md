@@ -1,7 +1,8 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://journals.ametsoc.org/view/journals/atsc/aop/JAS-D-20-0359.1/JAS-D-20-0359.1.xml
+links:
+- name: Journal site
+  url: https://journals.ametsoc.org/view/journals/atsc/aop/JAS-D-20-0359.1/JAS-D-20-0359.1.xml
+url_pdf: pdf/DiazBoos2021b.pdf
 abstract: "This study explores the effect of surface sensible and latent heat
   fluxes on monsoon depressions using a series of idealized
   convection-permitting simulations. Each experiment is initialized with a small
@@ -20,7 +21,7 @@ abstract: "This study explores the effect of surface sensible and latent heat
   it is driven by surface heat fluxes and quasi-geostrophic forcing for ascent.
   Both regimes require sufficiently strong meridional shear to achieve initial
   growth by barotropic instability."
-url_pdf: pdf/DiazBoos2021b.pdf
+
 title: The influence of surface heat fluxes on the growth of idealized monsoon
   depressions
 publication_types:
