@@ -6,8 +6,7 @@ header:
   caption: ""
   image: ""
   
-filter_default: 0
+filter_default: 
 filter_button:
-  - name: Date
-    tag: 'Date'
+
 ---
