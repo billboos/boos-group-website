@@ -7,7 +7,7 @@ authors:
   - Rodrigo J. Bombardi
   - William R. Boos
 publication: "*Journal of Climate*"
-publication_short: "*Journal of Climate*, in press"
+publication_short: "*J. Climate*, doi:10.1175/JCLI-D-20-1012.1"
 abstract: This study examines the annual cycle of monsoon precipitation
   simulated by models from the Coupled Model Intercomparison Project phase 6
   (CMIP6), then uses moist energy diagnostics to explain globally inhomogeneous
@@ -39,4 +39,8 @@ image:
   focal_point: Smart
   preview_only: false
 date: 2021-08-16T04:22:04.361Z
+links:
+- name: Journal site
+  url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-1012.1/JCLI-D-20-1012.1.xml
+url_pdf: pdf/BombardiBoos2021.pdf
 ---
