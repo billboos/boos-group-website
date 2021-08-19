@@ -1,9 +1,10 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://royalsocietypublishing.org/doi/full/10.1098/rsta.2019.0543?casa_token=G9udQNgtl94AAAAA%3ABe36AT31LTtBR-GXjIxu8GOrUj9c-5NcqP-K5thDoafltkH6U1HcjC2TNoLzL3vMD6CAie_uLqy6hzo
-  - name: Model output
-    url: https://drive.google.com/drive/folders/1TRPDL6JkcLjgTHJL9Ib_Z4XuPyvNVIyY?usp=sharing
+links:
+- name: Journal site
+  url: https://royalsocietypublishing.org/doi/full/10.1098/rsta.2019.0543?casa_token=G9udQNgtl94AAAAA%3ABe36AT31LTtBR-GXjIxu8GOrUj9c-5NcqP-K5thDoafltkH6U1HcjC2TNoLzL3vMD6CAie_uLqy6hzo
+- name: Model output
+  url: https://drive.google.com/drive/folders/1TRPDL6JkcLjgTHJL9Ib_Z4XuPyvNVIyY?usp=sharing
+url_pdf: pdf/OGormanEtAl2021.pdf
 abstract: Projections of precipitation extremes in simulations with global
   climate models are very uncertain in the tropics, in part because of the use
   of parameterizations of deep convection and model deficiencies in simulating
@@ -23,7 +24,6 @@ abstract: Projections of precipitation extremes in simulations with global
   aquaplanet studies. However, the simulations studied here do not exhibit the
   high rates of increase of tropical precipitation extremes found in projections
   with some global climate models.
-url_pdf: pdf/OGormanEtAl2021.pdf
 title: Response of extreme precipitation to uniform surface warming in
   quasi-global aquaplanet simulations at high resolution
 publication_types:
@@ -35,7 +35,7 @@ authors:
   - Janni Yuval
 publication: "*Philosophical Transactions of the Royal Society A*"
 publication_short: "*Phil. Trans. R. Soc. A*, **379**, 20190543.
-  https://doi.org/10.1098/rsta.2019.0543"
+  doi:10.1098/rsta.2019.0543"
 date: 2021-03-01
 selected: true
 ---
