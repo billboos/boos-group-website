@@ -1,7 +1,8 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://journals.ametsoc.org/doi/full/10.1175/JAS-D-19-0202.1
+links:
+- name: Journal site
+  url: https://journals.ametsoc.org/doi/full/10.1175/JAS-D-19-0202.1
+url_pdf: pdf/MurthyBoos2020.pdf
 abstract: South Asian monsoon depressions are convectively coupled cyclonic
   vortices that form and intensify in a region of easterly vertical shear of the
   horizontal wind. Observations of maximum precipitation downshear of the
@@ -26,7 +27,7 @@ abstract: South Asian monsoon depressions are convectively coupled cyclonic
   region, adiabatic QG subsidence and horizontal moisture advection both
   suppress precipitation, and are opposed by wind-enhanced surface enthalpy
   fluxes.
-url_pdf: pdf/MurthyBoos2020.pdf
+
 title: Quasigeostrophic controls on precipitating ascent in monsoon depressions
 publication_types:
   - "2"
