@@ -1,7 +1,8 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://doi.org/10.1029/2020GL090425
+links:
+- name: Journal site
+  url: https://doi.org/10.1029/2020GL090425
+url_pdf: pdf/KarmakarEtAl2021.pdf
 abstract: Previous studies showed that the activity of monsoon low pressure
   systems (LPS), which produce a large fraction of the South Asian monsoon’s
   total rainfall, is modulated by intraseasonal variability. Using
@@ -16,7 +17,6 @@ abstract: Previous studies showed that the activity of monsoon low pressure
   into depressions is fostered by large-scale atmospheric conditions governed by
   the ISO. Results also suggest that while lows have no preference for forming
   over ocean compared to land, depressions mostly form over ocean.
-url_pdf: pdf/KarmakarEtAl2021.pdf
 title: Influence of intraseasonal variability on the development of monsoon
   depressions
 publication_types:
@@ -27,7 +27,7 @@ authors:
   - Vasubandhu Misra
 publication: "*Geophysical Research Letters*"
 publication_short: "*Geophys. Res. Lett.*, **48**, e2020GL090425.
-  https://doi.org/10.1029/2020GL090425"
+  doi:10.1029/2020GL090425"
 date: 2021-01-25
 selected: true
 abstract_short: "2021"
