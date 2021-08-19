@@ -1,9 +1,10 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JD032977
-  - name: Track dataset
-    url: https://zenodo.org/record/3890646
+links:
+- name: Journal site
+  url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2020JD032977
+- name: Track dataset
+  url: https://zenodo.org/record/3890646
+url_pdf: pdf/VishnuEtAl2020.pdf
 abstract: Cyclonic low-pressure systems (LPS) produce abundant rainfall in South
   Asia, where they are traditionally categorized as monsoon lows, monsoon
   depressions, and more intense cyclonic storms.  The India Meteorological
@@ -26,7 +27,7 @@ abstract: Cyclonic low-pressure systems (LPS) produce abundant rainfall in South
   above-average monsoon rainfall and also in La Nina years, but few other
   large-scale modes of interannual climate variability are found to modulate LPS
   counts, lifetimes, or track length consistently across all reanalyses.
-url_pdf: pdf/VishnuEtAl2020.pdf
+
 title: Assessing historical variability of South Asian monsoon lows and
   depressions with an optimized tracking algorithm
 publication_types:
@@ -38,7 +39,7 @@ authors:
   - Travis A. O'Brien
 publication: "*Journal of Geophysical Research: Atmospheres*"
 publication_short: "*J. Geophys. Res. Atmos.*, **125**, e2020JD032977.
-  https://doi.org/10.1029/2020JD032977"
+  doi:10.1029/2020JD032977"
 date: 2020-06-20
 selected: true
 ---
