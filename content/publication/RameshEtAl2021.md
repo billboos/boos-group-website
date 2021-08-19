@@ -1,7 +1,8 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0740.1/JCLI-D-20-0740.1.xml
+links:
+- name: Journal site
+  url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-0740.1/JCLI-D-20-0740.1.xml
+url_pdf: pdf/RameshEtAl2021.pdf
 abstract: "Over most tropical land areas, the annual peak in precipitation
   occurs during summer, associated with the local monsoon circulation. However,
   in some coastal regions in the tropics the bulk of annual precipitation occurs
@@ -24,7 +25,6 @@ abstract: "Over most tropical land areas, the annual peak in precipitation
   atmospheric stability between the equinoctial seasons, which can be captured
   by a relative SST metric and is influenced by SSTs in the remote eastern
   upwelling zones of the Pacific and Atlantic Oceans."
-url_pdf: pdf/RameshEtAl2021.pdf
 title: The globally coherent pattern of autumn monsoon precipitation
 publication_types:
   - "2"
@@ -33,7 +33,7 @@ authors:
   - Quentin Nicolas
   - William R. Boos
 publication: "*Journal of Climate*"
-publication_short: "*J. Climate*, **34**, 5687-5705, https://doi.org/10.1175/JCLI-D-20-0740.1"
+publication_short: "*J. Climate*, **34**, 5687-5705, doi:10.1175/JCLI-D-20-0740.1"
 date: 2021-04-20
 selected: true
 ---
