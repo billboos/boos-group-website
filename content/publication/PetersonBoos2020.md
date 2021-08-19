@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://www.nature.com/articles/s41612-020-0114-4
+links:
+- name: Journal site
+  url: https://www.nature.com/articles/s41612-020-0114-4
 abstract: Radiative feedbacks are known to strongly modify horizontal shifts of
   the intertropical convergence zone (ITCZ) produced by remote atmospheric
   energy sources. This study uses a one-dimensional moist energy balance model
