@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.3585
+links:
+- name: Journal site
+  url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.3585
 abstract: This study makes the case that monsoon depressions over South Asia can
   form from a variant of moist barotropic instability. Using an idealized
   numerical framework in which the atmosphere is partitioned into a basic state
