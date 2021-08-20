@@ -58,6 +58,17 @@
     <div class="space-below"></div>
     
     <div class="row">
+      Citation <span class="article-metadata li-cite-author">
+            {{ partial "page_metadata_authors" . }} </span>
+          ({{- .Date.Format "2006" -}}).
+          {{ .Title }}.
+          {{ if .Params.publication_short }}
+          {{- .Params.publication_short | markdownify -}}.
+    </div>
+    
+    <div class="space-below"></div>
+    
+    <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
