@@ -38,7 +38,7 @@ image:
   filename: featured
   focal_point: Smart
   preview_only: false
-date: 2021-08-16T04:22:04.361Z
+date: 2021-07-30
 links:
 - name: Journal site
   url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-20-1012.1/JCLI-D-20-1012.1.xml
