@@ -17,8 +17,8 @@ main:
     url: publication
     weight: 50
   - name: Data & Tools
-    url: Data
+    url: #data
     weight: 52
   - name: Contact
-    url: contact
+    url: #contact
     weight: 60
