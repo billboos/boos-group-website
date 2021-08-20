@@ -18,6 +18,7 @@ social:
 organizations:
   - name: University of California, Berkeley, Department of Earth and Planetary Science
     url: "https://eps.berkeley.edu/"
+  - name: Faculty Scientist, Lawrence Berkeley National Laboratory
 education:
   courses:
     - course: PhD Atmospheric Science
