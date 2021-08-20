@@ -23,4 +23,5 @@ design:
   show_role: true
   show_social: true
   show_education: true
+  show_organizations: true
 ---
