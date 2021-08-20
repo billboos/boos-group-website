@@ -55,11 +55,14 @@
     <div class="d-md-none space-below"></div>
     {{ end }}
 
+    <div class="space-below"></div>
+    
     <div class="pub-list-item" style="margin-bottom: 1rem">
       <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
       {{/* APA Style */}}
 
+      <div class="col-12 col-md-3 pub-row-heading">{{ i18n "citation" }}</div>
       <span class="article-metadata li-cite-author">
         {{ partial "page_metadata_authors" . }}
       </span>
