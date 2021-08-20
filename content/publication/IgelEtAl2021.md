@@ -32,5 +32,5 @@ abstract: The North American monsoon is frequently affected by transient,
   the tracks of long-lived TUTTs portray these systems, to first order, as
   strong vorticity anomalies trapped in the upper troposphere that interact only
   weakly and indirectly with precipitation.
-date: 2021-05-10
+date: 2021-08-18
 ---
