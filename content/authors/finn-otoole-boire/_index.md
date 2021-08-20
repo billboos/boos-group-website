@@ -10,6 +10,12 @@ user_groups:
   - Researchers
   - Group Members
 
+education:
+  courses:
+    - course: Physics major
+      institution: UC Berkeley
+      # year: 2008
+
 social:
   - display:
       header: false
