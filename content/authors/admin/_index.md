@@ -16,19 +16,19 @@ social:
     icon_pack: ai
     link: https://scholar.google.com/citations?user=AnKqc8UAAAAJ&hl=en&oi=ao
 organizations:
-  - name: University of California, Berkeley
-    url: ""
+  - name: University of California, Berkeley, Department of Earth and Planetary Science
+    url: "https://eps.berkeley.edu/"
 education:
   courses:
-    - course: Ph.D. in Atmospheric Science
+    - course: PhD Atmospheric Science
       institution: MIT
-      year: 2008
-    - course: M.Sc. in Geosystems
+      # year: 2008
+    - course: MSc Geosystems
       institution: MIT
-      year: 2002
-    - course: B.S. in Physics, B.A. in Math
+      # year: 2002
+    - course: BS Physics, BA in Math
       institution: State University of New York, Binghamton
-      year: 1997
+      # year: 1997
 superuser: true
 user_groups:
   - Principal Investigator
