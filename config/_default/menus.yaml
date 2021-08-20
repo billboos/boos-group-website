@@ -19,6 +19,9 @@ main:
   - name: Data & Tools
     url: '#data'
     weight: 52
+  - name: Opportunities
+    url: opportunities
+    weight: 54
   - name: Contact
     url: '#contact'
     weight: 60
