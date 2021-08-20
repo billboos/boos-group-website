@@ -7,9 +7,9 @@ main:
 #  - name: News
 #    url: post
 #    weight: 20
-  - name: People
-    url: people
-    weight: 30
+#  - name: People
+#    url: people
+#    weight: 30
 #  - name: Events
 #    url: event
 #    weight: 40
@@ -17,8 +17,8 @@ main:
     url: publication
     weight: 50
   - name: Data & Tools
-    url: #data
+    url: '#data'
     weight: 52
   - name: Contact
-    url: #contact
+    url: '#contact'
     weight: 60
