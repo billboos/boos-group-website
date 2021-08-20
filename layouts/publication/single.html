@@ -57,7 +57,29 @@
 
     <div class="space-below"></div>
     
-    <div class="pub-list-item" style="margin-bottom: 1rem">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">{{ i18n "publication" }}</div>
+          <span class="article-metadata li-cite-author">
+            {{ partial "page_metadata_authors" . }}
+          </span>
+          ({{- .Date.Format "2006" -}}).
+          {{ .Title }}.
+          {{ if .Params.publication_short }}
+          {{- .Params.publication_short | markdownify -}}.
+          {{ else if .Params.publication }}
+          {{- .Params.publication | markdownify -}}.
+          {{ end }}
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+    
+<!--    <div class="pub-list-item" style="margin-bottom: 1rem">
       {{/* APA Style */}}
 
       <div class="col-12 col-md-3 pub-row-heading">Citation: </div>
@@ -72,7 +94,7 @@
       {{- .Params.publication | markdownify -}}.
       {{ end }}
 
-    </div>
+    </div> -->
     
     <div class="space-below"></div>
 
