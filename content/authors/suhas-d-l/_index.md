@@ -22,9 +22,9 @@ education:
   courses:
     - course: PhD Atmospheric Science
       institution: Indian Institute of Science, Bangalore
-    - course: MTech, Climate Science
+    - course: MTech Climate Science
       institution: Indian Institute of Science, Bangalore
-    - course: BEng, Electrical Engineering
+    - course: BEng Electrical Engineering
       institution: Sri Jayachamarajendra College of Engineering, Mysore
       
 ---
