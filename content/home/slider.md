@@ -20,7 +20,7 @@ item:
     content: 'Precipitating convection over Bangladesh during the summer monsoon. <br> image: International Space Station Expedition 4, NASA, 2002-06-03'
     # Choose `center`, `left`, or `right` alignment.
     align: right
-    overlay_color: white
+    overlay_color: '#666'
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
     # overlay_color: '#666'  # An HTML color value.
@@ -36,8 +36,8 @@ item:
     # title: Left
     content: 'Low stratocumulus deck in a region of subsidence west of Mexico, and deep convective clouds over the Sierra Madre range, as the jet stream is deflected south toward Mexico. <br> image: VIIRS NASA Worldview, 2021-07-02'
     align: right
-    # overlay_color: '#555'
-    overlay_color: 'gray'
+    overlay_color: '#555'
+    #overlay_color: 'gray'
     # overlay_filter: 1
   - overlay_img: 'Sahara.A2003032.1215.1km.jpg'
     # title: Right
