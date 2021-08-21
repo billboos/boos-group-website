@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://link.springer.com/article/10.1007%2Fs00382-018-4134-2
+links:
+- name: Journal site
+  url: https://link.springer.com/article/10.1007%2Fs00382-018-4134-2
 abstract: Here we investigate tropical cyclogenesis in warm climates, focusing
   on the effect of reduced equator-to-pole temperature gradient relevant to past
   equable climates and, potentially, to future climate change. Using a
