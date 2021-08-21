@@ -27,7 +27,7 @@ education:
     - course: MSc Geosystems
       institution: MIT
       # year: 2002
-    - course: BS Physics, BA in Math
+    - course: BS Physics, BA Math
       institution: State University of New York, Binghamton
       # year: 1997
 superuser: true
