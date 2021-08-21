@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://doi.org/10.1073/pnas.1709031115
+links:
+- name: Journal site
+  url: https://doi.org/10.1073/pnas.1709031115
 abstract: Cyclonic atmospheric vortices of varying intensity, collectively known
   as low-pressure systems (LPS), travel northwest across central India and
   produce more than half of the precipitation received by that fertile region
