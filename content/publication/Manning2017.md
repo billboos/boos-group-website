@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://www.nature.com/articles/s41467-017-00957-y
+links:
+- name: Journal site
+  url: https://www.nature.com/articles/s41467-017-00957-y
 abstract: Volcanic eruptions provide tests of human and natural system
   sensitivity to abrupt shocks because their repeated occurrence allows the
   identification of systematic relationships in the presence of random
