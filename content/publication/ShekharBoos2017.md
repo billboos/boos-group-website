@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-16-0696.1
+links:
+- name: Journal site
+  url: http://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-16-0696.1
 abstract: The correlation between increased Sahel rainfall and reduced Saharan
   surface pressure is well established in observations and global climate
   models, and has been used to imply that increased Sahel rainfall is caused by
