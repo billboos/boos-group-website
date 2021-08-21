@@ -16,8 +16,6 @@ social:
     icon_pack: ai
     link: https://scholar.google.com/citations?user=AnKqc8UAAAAJ&hl=en&oi=ao
 organizations:
-  - name: University of California, Berkeley, Department of Earth and Planetary Science
-    url: "https://eps.berkeley.edu/"
   - name: Faculty Scientist, Lawrence Berkeley National Laboratory
 education:
   courses:
