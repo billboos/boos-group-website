@@ -1,7 +1,8 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0151.1
+links:
+- name: Journal site
+  url: https://journals.ametsoc.org/doi/abs/10.1175/JCLI-D-18-0151.1
+url_pdf: pdf/LintnerBoos2019.pdf
 abstract: The South Pacific Convergence Zone (SPCZ) exhibits well-known spatial
   displacements in response to anomalous sea surface temperatures (SSTs)
   associated with the El Niño/Southern Oscillation (ENSO). Although dynamic and
@@ -26,7 +27,6 @@ abstract: The South Pacific Convergence Zone (SPCZ) exhibits well-known spatial
   study also introduces an idealized analytical model used to illustrate AET
   anomalies during ENSO and to obtain a scaling for the SPCZ response to an
   anomalous equatorial energy source.
-url_pdf: pdf/LintnerBoos2019.pdf
 title: Using atmospheric energy transport to quantitatively constrain South
   Pacific Convergence Zone shifts during ENSO
 publication_types:
