@@ -17,12 +17,12 @@ height: 400px
 item:
   - overlay_img: BangladeshMonsoon.jpg  # Image path relative to your `assets/media/` folder
     # title: Hello
-    content: 'Precipitating convection over Bangladesh during the summer monsoon, image from International Space Station, NASA, 2002-06-03'
+    content: 'Precipitating convection over Bangladesh during the summer monsoon. <br> image: International Space Station Expedition 4, NASA, 2002-06-03'
     # Choose `center`, `left`, or `right` alignment.
     align: right
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
-    overlay_color: '#666'  # An HTML color value.
+    # overlay_color: '#666'  # An HTML color value.
     # overlay_filter: 1  # Darken the image. Value in range 0-1.
     # Call to action button (optional).
     #   Activate the button by specifying a URL and button label below.
@@ -33,8 +33,8 @@ item:
     # cta_icon: graduation-cap
   - overlay_img: 'NorthAmericanMonsoon20210702.jpg'
     # title: Left
-    # content: 'I am left aligned 😄'
-    # align: left
+    content: 'Low stratocumulus deck in a region of subsidence west of Mexico, and deep convective clouds over the Sierra Madre range, where the jet stream is deflected into the North American monsoon region.  image: VIIRS NASA Worldview, 2021-07-02'
+    align: right
     # overlay_color: '#555'
     overlay_filter: 1
   - overlay_img: 'Sahara.A2003032.1215.1km.jpg'
