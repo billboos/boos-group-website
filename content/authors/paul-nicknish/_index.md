@@ -2,14 +2,14 @@
 title: Paul Nicknish
 role: Research Assistant
 avatar_filename: avatar.jpg
-bio: B.A. Applied Math (UC Berkeley)
+bio: BA Applied Math (UC Berkeley)
 social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/paul-nicknish-b4a850148/
 education:
   courses:
-    - course: B.A. Applied Math
+    - course: BA Applied Math
       institution: UC Berkeley
 email: pnicknish2@berkeley.edu
 superuser: false
