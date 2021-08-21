@@ -18,11 +18,14 @@ social:
     link: https://scholar.google.com/citations?user=91D1lZsAAAAJ&hl=en&oi=ao
 education:
   courses:
-    - course: Ph.D.
+    - course: PhD Atmospheric Sciences
       institution: University of Washington
 email: marysa.lague@usask.ca
 superuser: false
 user_groups:
   - Postdoctoral Scientists
   - Group Members
+
+organizations:
+  - name: Visiting Research Fellow, Coldwater Lab, University of Saskatchewan Center for Hydrology
 ---
