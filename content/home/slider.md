@@ -17,7 +17,7 @@ height: 400px
 item:
   - overlay_img: BangladeshMonsoon.jpg  # Image path relative to your `assets/media/` folder
     # title: Hello
-    # content: 'I am center aligned 😄'
+    content: 'Precipitating convection over Bangladesh during the summer monsoon, image from International Space Station, NASA, 2002-06-03'
     # Choose `center`, `left`, or `right` alignment.
     align: center
     # Overlay a color or image (optional).
