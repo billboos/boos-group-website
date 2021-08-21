@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://onlinelibrary.wiley.com/doi/10.1002/qj.2969/full
+links:
+- name: Journal site
+  url: http://onlinelibrary.wiley.com/doi/10.1002/qj.2969/full
 abstract: Orography is known to influence winter precipitation in Asia and the
   Indo-Pacific Ocean by mechanically forcing winds, but the dynamics involved in
   the precipitation response are incompletely understood. This study
