@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://rspb.royalsocietypublishing.org/content/284/1860/20170901
+links:
+- name: Journal site
+  url: http://rspb.royalsocietypublishing.org/content/284/1860/20170901
 abstract: Climate change is likely to profoundly modulate the burden of
   infectious diseases. However, attributing health impacts to a changing climate
   requires being able to associate changes in infectious disease incidence with
