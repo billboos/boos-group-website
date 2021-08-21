@@ -15,4 +15,10 @@ user_groups:
   - Researchers
   - Group Members
 superuser: false
+
+education:
+  courses:
+    - course: Electrical Engineering & Computer Science major
+      institution: UC Berkeley
+      # year: 2008
 ---
