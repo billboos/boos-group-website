@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-17-0119.1
+links:
+- name: Journal site
+  url: https://journals.ametsoc.org/doi/abs/10.1175/JAS-D-17-0119.1
 abstract: An idealized, three-dimensional, cloud-system resolving model is used
   to investigate the influence of surface enthalpy flux variations on tropical
   depression (TD) spinup, an early stage of tropical cyclogenesis in which the
