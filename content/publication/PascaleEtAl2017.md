@@ -1,9 +1,9 @@
 ---
-url_custom:
-  - name: PDF
-    url: http://rdcu.be/wALW
-  - name: Journal site
-    url: http://www.nature.com/nclimate/journal/vaop/ncurrent/full/nclimate3412.html
+links:
+- name: PDF
+  url: http://rdcu.be/wALW
+- name: Journal site
+  url: http://www.nature.com/nclimate/journal/vaop/ncurrent/full/nclimate3412.html
 title: Weakening of the North American monsoon with global warming
 publication_types:
   - "2"
