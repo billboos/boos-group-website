@@ -34,7 +34,7 @@ item:
     # cta_icon: graduation-cap
   - overlay_img: 'NorthAmericanMonsoon20210702.jpg'
     # title: Left
-    content: 'Low stratocumulus deck in a region of subsidence west of Mexico, and deep convective clouds over the Sierra Madre range, as the jet stream is deflected south toward Mexico. <br> image: VIIRS NASA Worldview, 2021-07-02'
+    content: 'Low stratocumulus deck in a region of subsidence west of Mexico, and deep convective clouds <br> over the Sierra Madre range, as the jet stream is deflected south toward Mexico. Image: VIIRS NASA Worldview, 2021-07-02'
     align: right
     overlay_color: '#555'
     #overlay_color: 'gray'
