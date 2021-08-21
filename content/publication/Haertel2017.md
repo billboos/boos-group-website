@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://www.mdpi.com/2073-4433/8/9/158/html
+links:
+- name: Journal site
+  url: http://www.mdpi.com/2073-4433/8/9/158/html
 abstract: Many recent studies have characterized the Madden–Julian Oscillation
   (MJO) as a moisture mode, suggesting that its amplification and eastward
   propagation result from processes that build up moisture to the east of the
