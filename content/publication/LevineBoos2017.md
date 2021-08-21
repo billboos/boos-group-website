@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://onlinelibrary.wiley.com/doi/10.1002/2017GL072510/full
+links:
+- name: Journal site
+  url: http://onlinelibrary.wiley.com/doi/10.1002/2017GL072510/full
 abstract: "The influence of surface albedo on tropical precipitation is widely
   appreciated, but albedo bias over snow-free areas in climate models has been
   studied little. Here, historical CMIP5 simulations are shown to exhibit large
