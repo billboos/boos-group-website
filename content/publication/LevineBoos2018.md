@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://link.springer.com/article/10.1007%2Fs00382-018-4419-5
+links:
+- name: Journal site
+  url: https://link.springer.com/article/10.1007%2Fs00382-018-4419-5
 abstract: "Time-mean, zonally asymmetric circulations maintain an intense
   hydrologic contrast between monsoon regions and subtropical drylands in
   Earth’s present climate. Climate model simulations suggest that this
