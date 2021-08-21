@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.3467
+links:
+- name: Journal site
+  url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.3467
 abstract: Although monsoon depressions are a principal synoptic-scale element of
   the South Asian monsoon, producing extreme rainfall over India and surrounding
   regions, there exists no widely accepted mechanism explaining their
