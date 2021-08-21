@@ -47,6 +47,7 @@ item:
     # overlay_color: '#333'
     # overlay_filter: 1
   - overlay_img: 'IndianOceanEddies2.jpg'
+    content: 'Enhanced image of the Arabian Sea, where the Somali jet drives ocean upwelling producing chlorophyll-rich waters. <br> image: NASA MODIS 2018-11-23, enhancements by Norman Kuring, NASA Ocean Biology group
     # overlay_filter: 1
 ---
 
