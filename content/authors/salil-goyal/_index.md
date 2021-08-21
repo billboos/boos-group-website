@@ -12,4 +12,10 @@ superuser: false
 user_groups:
   - Researchers
   - Group Members
+
+education:
+  courses:
+    course: Applied Math major
+    institution:  UC Berkeley
+    
 ---
