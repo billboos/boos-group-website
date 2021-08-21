@@ -19,7 +19,7 @@ item:
     # title: Hello
     content: 'Precipitating convection over Bangladesh during the summer monsoon, image from International Space Station, NASA, 2002-06-03'
     # Choose `center`, `left`, or `right` alignment.
-    align: center
+    align: right
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
     # overlay_color: '#666'  # An HTML color value.
