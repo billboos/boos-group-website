@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1175/JCLI-D-15-0826.1
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1175/JCLI-D-15-0826.1
 abstract: Time-mean, zonally asymmetric circulations (hereafter referred to as
   stationary circulations) maintain intense hydrologic contrasts in Earth's
   subtropics in the present climate, especially between monsoon regions and
