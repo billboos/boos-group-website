@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://doi.wiley.com/10.1002/2017GL073625
+links:
+- name: Journal site
+  url: http://doi.wiley.com/10.1002/2017GL073625
 abstract: Previous research has revealed that monsoon lows and depressions are
   modulated on intraseasonal time scales in a few regions, including India,
   Australia, and the East Pacific. This study examines whether such modulation
