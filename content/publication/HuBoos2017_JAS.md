@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-16-0312.1?af=R
+links:
+- name: Journal site
+  url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-16-0312.1?af=R
 abstract: Elevated heating of the atmosphere by large plateaus has been argued
   to influence regional climate in Asia and other regions, but the mechanisms
   that cause the troposphere to equilibrate at warmer temperatures over elevated
