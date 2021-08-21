@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://onlinelibrary.wiley.com/doi/10.1002/qj.3091/abstract
+links:
+- name: Journal site
+  url: http://onlinelibrary.wiley.com/doi/10.1002/qj.3091/abstract
 abstract: Shallow meridional overturning circulations are superimposed on the
   deep circulations that produce precipitation in nearly all monsoon regions,
   and these shallow circulations transport subtropical, mid-tropospheric dry air
