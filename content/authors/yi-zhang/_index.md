@@ -14,4 +14,12 @@ superuser: false
 user_groups:
   - Postdoctoral Scientists
   - Group Members
+
+education:
+  courses:
+    - course:  PhD Atmospheric and Oceanic Sciences
+      institution:  Princeton University
+    - course:  BS Physics
+      institution: Peking University
+      
 ---
