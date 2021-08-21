@@ -23,6 +23,7 @@ education:
     - course: MSc Applied Mathematics, MSc Atmospheric Sciences
       institution:  University of Washington
     - course: BSc Honours Mathematics
+      institution: University of British Columbia
 email: marysa.lague@usask.ca
 superuser: false
 user_groups:
