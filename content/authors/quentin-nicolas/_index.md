@@ -21,4 +21,11 @@ superuser: false
 user_groups:
   - Graduate Students
   - Group Members
+
+education:
+  courses:
+    - course: MS Applied Math
+      institution: Ecole Polytechnique
+      # year: 2008
+
 ---
