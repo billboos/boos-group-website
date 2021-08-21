@@ -15,7 +15,7 @@ user_groups:
 
 education:
   courses:
-    course: Applied Math major
-    institution:  UC Berkeley
+    - course: Applied Math major
+      institution:  UC Berkeley
     
 ---
