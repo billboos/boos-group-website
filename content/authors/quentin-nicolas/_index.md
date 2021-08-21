@@ -1,8 +1,8 @@
 ---
 title: Quentin Nicolas
-role: Ph.D. Candidate
+role: PhD Candidate
 avatar_filename: avatar.png
-bio: M.S. Applied Math (Ecole Polytechnique)
+bio: MS Applied Math (Ecole Polytechnique)
 social:
   - icon: linkedin
     icon_pack: fab
