@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://onlinelibrary.wiley.com/doi/10.1002/2016GL072441/full
+links:
+- name: Journal site
+  url: http://onlinelibrary.wiley.com/doi/10.1002/2016GL072441/full
 abstract: All else being equal, a given atmospheric pressure level is thought to
   be warmer over a plateau than over surrounding nonelevated terrain because of
   orographic “elevated heating.” However, elevated surfaces are also typically
