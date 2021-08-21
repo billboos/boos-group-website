@@ -2,7 +2,7 @@
 title: S. Vishnu
 role: Postdoctoral Scholar
 avatar_filename: avatar.jpg
-bio: Ph.D. (Indian National Centre for Ocean Information Services [INCOIS])
+bio: PhD (Indian National Centre for Ocean Information Services [INCOIS])
 social:
   - icon: globe
     link: https://sites.google.com/view/svishnu/home?authuser=1
@@ -19,4 +19,12 @@ superuser: false
 user_groups:
   - Postdoctoral Scientists
   - Group Members
+
+education:
+  courses:
+    - course: PhD Meteorology and Oceanography
+      institution: INCOIS & Andhra University
+    - course: MSc Meteorology
+      institution: Cochin University of Science and Technology
+      # year: 2008
 ---
