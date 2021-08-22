@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1002/2015GL067028
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1002/2015GL067028
 abstract: Internal gravity waves influence a variety of phenomena in Earth's
   stratosphere and upper troposphere, including aviation weather turbulence and
   circulations that set high-altitude distributions of ozone and greenhouse
@@ -27,7 +27,7 @@ authors:
 math: true
 title: Modulation of subtropical stratospheric gravity waves by equatorial rainfall
 publication: "*Geophysical Research Letters*"
-publication_short: "*Geophys. Res. Lett.*, 2016, **43**, 466-471"
+publication_short: "*Geophys. Res. Lett.*, 2016, **43**, 466-471, doi:10.1002/2015GL067028"
 date: 2016-01-01
 selected: false
 abstract_short: Internal gravity waves influence a variety of phenomena in
