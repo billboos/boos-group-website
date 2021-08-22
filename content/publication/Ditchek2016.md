@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1175/JCLI-D-15-0704.1
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1175/JCLI-D-15-0704.1
 abstract: "Synoptic-scale monsoon disturbances produce the majority of
   continental rainfall in the monsoon regions of South Asia and Australia, yet
   there is little understanding of the conditions that foster development of
@@ -38,7 +38,7 @@ authors:
 math: true
 title: A genesis index for monsoon disturbances
 publication: "*Journal of Climate*"
-publication_short: "*J. Clim.*, 2016, **29**, 5189-5208"
+publication_short: "*J. Clim.*, 2016, **29**, 5189-5208, doi:10.1175/JCLI-D-15-0704.1"
 date: 2016-01-01
 selected: false
 abstract_short: "ynoptic-scale monsoon disturbances produce the majority of
