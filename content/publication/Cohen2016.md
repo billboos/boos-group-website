@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-15-0254.1?af=R
+links:
+- name: Journal site
+  url: http://journals.ametsoc.org/doi/abs/10.1175/JAS-D-15-0254.1?af=R
 abstract: Little is known about the genesis and growth mechanisms of monsoon
   depressions, despite the great importance of these storms for the hydrological
   cycle of the Asian–Australian monsoon region. Of the few theoretical studies
@@ -33,7 +33,7 @@ math: true
 title: "Perspectives on moist baroclinic instability: implications for the
   growth of monsoon depressions"
 publication: "*Journal of the Atmospheric Sciences*"
-publication_short: "*J. Atmos. Sci.*, 2016, **73**, 1767-1788"
+publication_short: "*J. Atmos. Sci.*, 2016, **73**, 1767-1788, doi:10.1175/JAS-D-15-0254.1"
 date: 2016-01-01
 selected: false
 abstract_short: Little is known about the genesis and growth mechanisms of
