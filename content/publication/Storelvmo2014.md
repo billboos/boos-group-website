@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1098/rsta.2014.0116
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1098/rsta.2014.0116
 abstract: Climate engineering, the intentional alteration of Earth's climate, is
   a multifaceted and controversial topic. Numerous climate engineering
   mechanisms (CEMs) have been proposed, and the efficacies and potential
