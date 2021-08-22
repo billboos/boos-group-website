@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1002/2014GL061895
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1002/2014GL061895
 abstract: Monsoon depressions are cyclonic atmospheric vortices with outer radii
   near 1000 km that form within the larger-scale monsoon circulations of India
   and other regions. Recent studies have reported a downward trend in recent
@@ -26,7 +26,7 @@ math: true
 title: Has the number of Indian summer monsoon depressions decreased over the
   last 30 years?
 publication: "*Geophysical Research Letters*"
-publication_short: "*Geophys. Res. Lett*, 2014, **41**, 7846-7853"
+publication_short: "*Geophys. Res. Lett*, 2014, **41**, 7846-7853, doi:10.1002/2014GL061895"
 date: 2014-01-01
 selected: false
 abstract_short: Monsoon depressions are cyclonic atmospheric vortices with outer
