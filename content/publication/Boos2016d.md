@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1038/ngeo2833
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1038/ngeo2833
 abstract: Shifts in the latitude of the intertropical convergence zone - a
   region of intense tropical rainfall - have often been explained through
   changes in the atmospheric energy budget, specifically through theories that
@@ -34,7 +34,7 @@ math: true
 title: Regional energy budget control of the intertropical convergence zone and
   application to mid-Holocene rainfall
 publication: "*Nature Geoscience*"
-publication_short: "*Nat. Geosci.*, 2016, **9**, 892-897"
+publication_short: "*Nat. Geosci.*, 2016, **9**, 892-897, doi:10.1038/ngeo2833"
 date: 2016-01-01
 selected: false
 abstract_short: Shifts in the latitude of the intertropical convergence zone - a
