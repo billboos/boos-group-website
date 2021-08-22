@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1175/JCLI-D-15-0747.1
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1175/JCLI-D-15-0747.1
 abstract: "Two theoretical frameworks have been widely used to understand the
   response of monsoons to local and remote forcings: the vertically integrated
   atmospheric energy budget and convective quasi-equilibrium (CQE). Existing
