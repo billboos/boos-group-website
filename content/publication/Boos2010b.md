@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1038/nature08707
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1038/nature08707
 abstract: "The Tibetan plateau, like any landmass, emits energy into the
   atmosphere in the form of dry heat and water vapour, but its mean surface
   elevation is more than 5 km above sea level. This elevation is widely held to
@@ -21,9 +21,6 @@ abstract: "The Tibetan plateau, like any landmass, emits energy into the
   reinterpretation of how South Asian climate may have responded to orographic
   uplift, and a re-evaluation of how this climate may respond to modified land
   surface and radiative forcings in coming decades."
-links:
-- name: Journal site
-  url: http://dx.doi.org/10.1038/nature08707
 url_pdf: pdf/BoosKuang2010_Nature_withSI.pdf
 image_preview: ""
 publication_types:
