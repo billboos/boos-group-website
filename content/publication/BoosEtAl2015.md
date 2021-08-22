@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2454
+links:
+- name: Journal site
+  url: https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2454
 abstract: A large fraction of the rain received by continental India is produced
   by cyclonic vortices with outer radii of about 1000 km that are contained
   within the larger scale South Asian monsoon flow. The more intense occurrences
@@ -32,7 +32,7 @@ authors:
 math: true
 title: Adiabatic westward drift of Indian monsoon depressions
 publication: "*Quarterly Journal of the Royal Meteorological Society*"
-publication_short: "*Q. J. R. Meteorol. Soc.*, 2015, **141**, 1035--1048"
+publication_short: "*Q. J. R. Meteorol. Soc.*, 2015, **141**, 1035--1048, doi:10.1002/qj.2454"
 date: 2015-04-01
 selected: false
 abstract_short: A large fraction of the rain received by continental India is
