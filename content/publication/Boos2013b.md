@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1175/JCLI-D-12-00493.1
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1175/JCLI-D-12-00493.1
 abstract: Here it is shown that almost all models participating in the Coupled
   Model Intercomparison Project (CMIP) exhibit a common bias in the
   thermodynamic structure of boreal summer monsoons. The strongest bias lies
@@ -34,7 +34,7 @@ authors:
 math: true
 title: Thermodynamic bias in the multimodel mean boreal summer monsoon
 publication: "*Journal of Climate*"
-publication_short: "*J. Clim.*, 2013, **26**, 2279-2287"
+publication_short: "*J. Clim.*, 2013, **26**, 2279-2287, doi:10.1175/JCLI-D-12-00493.1"
 date: 2013-01-01
 selected: false
 abstract_short: Here it is shown that almost all models participating in the
@@ -59,5 +59,4 @@ abstract_short: Here it is shown that almost all models participating in the
   in Indian monsoon precipitation. These results confirm the importance of
   topography west of the Tibetan Plateau for South Asian climate and illustrate
   the need for careful assessments of the thermodynamic state of model monsoons.
-  {	extcopyright} 2013 American Meteorological Society.
 ---
