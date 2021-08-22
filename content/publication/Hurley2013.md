@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1175/JCLI-D-12-00229.1
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1175/JCLI-D-12-00229.1
 abstract: "The interannual variability of monsoon precipitation is described in
   the context of a convective quasi-equilibrium framework. Using two reanalysis
   products and two global precipitation datasets, the authors examine linear
@@ -33,7 +33,7 @@ math: true
 title: Interannual variability of monsoon precipitation and local subcloud
   equivalent potential temperature
 publication: "*Journal of Climate*"
-publication_short: "*J. Clim.*, 2013, **26**, 9507-9527"
+publication_short: "*J. Clim.*, 2013, **26**, 9507-9527, doi:10.1175/JCLI-D-12-00229.1"
 date: 2013-01-01
 selected: false
 abstract_short: The interannual variability of monsoon precipitation is
