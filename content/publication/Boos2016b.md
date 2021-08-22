@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1073/pnas.1603626113
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1073/pnas.1603626113
 abstract: We showed that an analytical model of monsoons exhibits no abrupt
   response to forcing changes when one assumes, consistent with observations,
   that monsoon circulations export energy away from their ascending branch. We
@@ -23,7 +23,7 @@ math: true
 title: "Reply to Levermann et al.: Linear scaling for monsoons based on
   well-verified balance between adiabatic cooling and latent heat release"
 publication: "*Proceedings of the National Academy of the Sciences of the U.S.A.*"
-publication_short: "*Proc. Natl. Acad. Sci. U. S. A.*, 2016, **113**, E2350-E2351"
+publication_short: "*Proc. Natl. Acad. Sci. U. S. A.*, 2016, **113**, E2350-E2351, doi:10.1073/pnas.1603626113"
 date: 2016-02-02
 selected: false
 abstract_short: We showed that an analytical model of monsoons exhibits no
