@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1002/qj.2447
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1002/qj.2447
 abstract: The first global climatology of monsoon low-pressure systems is
   presented here, based on the ERA-Interim reanalysis. Low-pressure systems are
   classified into three intensity categories and particular focus is given to
@@ -35,7 +35,7 @@ authors:
 math: true
 title: A global climatology of monsoon low-pressure systems
 publication: "*Quarterly Journal of the Royal Meteorological Society*"
-publication_short: "*Q. J. R. Meteorol. Soc.*, 2015, **141**, 1049-1064"
+publication_short: "*Q. J. R. Meteorol. Soc.*, 2015, **141**, 1049-1064, doi:10.1002/qj.2447"
 date: 2015-01-01
 selected: false
 abstract_short: The first global climatology of monsoon low-pressure systems is
