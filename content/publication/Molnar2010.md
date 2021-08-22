@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://www.annualreviews.org/doi/abs/10.1146/annurev-earth-040809-152456
+links:
+- name: Journal site
+  url: http://www.annualreviews.org/doi/abs/10.1146/annurev-earth-040809-152456
 abstract: Prevailing opinion assigns the Tibetan Plateau a crucial role in
   shaping Asian climate, primarily by heating of the atmosphere over Tibet
   during spring and summer. Accordingly, the growth of the plateau in geologic
