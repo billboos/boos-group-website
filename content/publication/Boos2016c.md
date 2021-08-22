@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://dx.doi.org/10.1073/pnas.1517143113
+links:
+- name: Journal site
+  url: http://dx.doi.org/10.1073/pnas.1517143113
 abstract: Theoretical models have been used to argue that seasonal mean monsoons
   will shift abruptly and discontinuously from wet to dry stable states as their
   radiative forcings pass a critical threshold, sometimes referred to as a
@@ -35,7 +35,7 @@ math: true
 title: Near-linear response of mean monsoon strength to a broad range of
   radiative forcings
 publication: "*Proceedings of the National Academy of the Sciences of the U.S.A.*"
-publication_short: "*Proc. Natl. Acad. Sci. U. S. A.*, 2016, **113**, 1510-1515"
+publication_short: "*Proc. Natl. Acad. Sci. U. S. A.*, 2016, **113**, 1510-1515, doi:10.1073/pnas.1517143113"
 date: 2016-02-01
 selected: false
 abstract_short: Theoretical models have been used to argue that seasonal mean
