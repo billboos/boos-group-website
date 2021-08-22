@@ -1,7 +1,7 @@
 ---
-url_custom:
-  - name: Journal site
-    url: http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3561641&tool=pmcentrez&rendertype=abstract
+links:
+- name: Journal site
+  url: https://www.nature.com/articles/srep01192
 abstract: Elevated heating by the Tibetan Plateau was long thought to drive the
   South Asian summer monsoon, but recent work showed this monsoon was largely
   unaffected by removal of the plateau in a climate model, provided the narrow
@@ -25,7 +25,7 @@ authors:
 math: true
 title: Sensitivity of the South Asian monsoon to elevated and non-elevated heating.
 publication: "*Scientific Reports*"
-publication_short: "*Sci. Rep.*, 2013, **3**, 1192"
+publication_short: "*Sci. Rep.*, 2013, **3**, 1192, doi:10.1038/srep01192"
 date: 2013-01-01
 selected: false
 abstract_short: Elevated heating by the Tibetan Plateau was long thought to
