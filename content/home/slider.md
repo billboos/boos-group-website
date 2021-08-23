@@ -34,7 +34,7 @@ item:
     # cta_icon: graduation-cap
   - overlay_img: 'NorthAmericanMonsoon20210702.jpg'
     # title: Left
-    content: 'Low stratocumulus deck in a region of subsidence west of Mexico, and deep convective clouds over the Sierra Madre range, as the jet stream is deflected south toward Mexico. Image: VIIRS NASA Worldview, 2021-07-02'
+    content: 'Shallow stratocumulus and deep convective clouds where the jet stream is deflected south toward Mexico. Image: VIIRS NASA Worldview, 2021-07-02'
     align: right
     overlay_color: '#555'
     #overlay_color: 'gray'
@@ -47,7 +47,7 @@ item:
     # overlay_color: '#333'
     # overlay_filter: 1
   - overlay_img: 'IndianOceanEddies2.jpg'
-    content: 'Arabian Sea, where the Somali jet drives ocean upwelling producing chlorophyll-rich waters adjacent to complex orography.  Color-enhanced image: NASA MODIS 2018-11-23, enhancements by Norman Kuring, NASA Ocean Biology group'
+    content: 'Arabian Sea, where the Somali jet drives ocean upwelling.  Color-enhanced image: NASA MODIS 2018-11-23, enhancements by Norman Kuring, NASA Ocean Biology group'
     align: right
     # overlay_filter: 1
 ---
