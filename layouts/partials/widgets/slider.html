@@ -39,7 +39,7 @@
         </h1>
 
         {{ with $item.content }}
-        <p class="hero-note" style="{{if eq $item.align "center"}}margin: 0 auto 0 auto;{{else if eq $item.align "right"}}margin-left: 30%; margin-right: 0; margin-top: 7cm; color: DodgerBlue{{end}}">
+        <p class="hero-note" style="{{if eq $item.align "center"}}margin: 0 auto 0 auto;{{else if eq $item.align "right"}}margin-left: 30%; margin-right: 0; margin-top: 8cm; color: Black{{end}}">
           {{ . | markdownify | emojify }}
         </p>
         {{ end }}
