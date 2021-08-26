@@ -12,7 +12,7 @@
 //    is the upcoming slide in transition.
 
 .carousel {
-  height: 100%;
+  width: 100%;
   margin: auto;
 //  position: relative;
 }
@@ -23,13 +23,13 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    height: 100%;
+    width: 100%;
     margin: auto;
 }
 
 .carousel-inner {
   position: relative;
-  height: 100%;
+  width: 100%;
   overflow: hidden;
   @include clearfix();
  }
@@ -38,7 +38,7 @@
   position: relative;
   display: none;
   float: center;
-  height: 100%;
+  width: 100%;
   margin-right: -100%;
   backface-visibility: hidden;
   @include transition($carousel-transition);
