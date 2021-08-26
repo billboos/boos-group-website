@@ -21,6 +21,12 @@
   touch-action: pan-y;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
