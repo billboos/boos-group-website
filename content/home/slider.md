@@ -15,9 +15,9 @@ height: 400px
 
 
 item:
-  - overlay_img: BangladeshMonsoon.jpg  # Image path relative to your `assets/media/` folder
+  - overlay_img: BangladeshMonsoon3.jpg  # Image path relative to your `assets/media/` folder
     # title: Hello
-    content: 'Precipitating convection over Bangladesh during the summer monsoon. Image: International Space Station Expedition 4, NASA, 2002-06-03'
+    content: 'Bangladesh in the summer monsoon.  International Space Station Expedition 4, NASA, 2002-06-03'
     # Choose `center`, `left`, or `right` alignment.
     align: right
     overlay_color: '#666'
@@ -32,22 +32,22 @@ item:
     # cta_url: 'https://example.org'
     # cta_icon_pack: fas
     # cta_icon: graduation-cap
-  - overlay_img: 'NorthAmericanMonsoon20210702.jpg'
+  - overlay_img: 'NorthAmericanMonsoon3.jpg'
     # title: Left
-    content: 'Shallow stratocumulus and deep convective clouds where the jet stream is deflected south toward Mexico. Image: VIIRS NASA Worldview, 2021-07-02'
+    content: 'Shallow stratocumulus and deep convective clouds in the North American monsoon. VIIRS NASA Worldview, 2021-07-02'
     align: right
     overlay_color: '#555'
     #overlay_color: 'gray'
     # overlay_filter: 1
-  - overlay_img: 'Sahara.A2003032.1215.1km.jpg'
+  - overlay_img: 'Sahara3.jpg'
     # title: Right
     content: 'Dust moving out of the North African heat low in winter. Image: NASA MODIS 2003-02-01'
     align: right
     overlay_color: white
     # overlay_color: '#333'
     # overlay_filter: 1
-  - overlay_img: 'IndianOceanEddies2.jpg'
-    content: 'Arabian Sea, where the Somali jet drives ocean upwelling.  Color-enhanced image: NASA MODIS 2018-11-23, enhancements by Norman Kuring, NASA Ocean Biology group'
+  - overlay_img: 'SomaliJet3.jpg'
+    content: 'Arabian Sea, where the Somali jet drives ocean upwelling. NASA MODIS 2018-11-23, color enhancements by Norman Kuring, NASA Ocean Biology'
     align: right
     # overlay_filter: 1
 ---
