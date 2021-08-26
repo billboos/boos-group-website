@@ -27,12 +27,12 @@
     margin: auto;
 }
 
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  @include clearfix();
-}
+//.carousel-inner {
+//  position: relative;
+//  width: 100%;
+//  overflow: hidden;
+//  @include clearfix();
+// }
 
 .carousel-item {
   position: relative;
