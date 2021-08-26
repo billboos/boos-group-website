@@ -20,7 +20,7 @@ item:
     content: 'Bangladesh in the summer monsoon.  International Space Station Expedition 4, NASA, 2002-06-03'
     # Choose `center`, `left`, or `right` alignment.
     align: right
-    overlay_color: '#666'
+    overlay_color: white
     # Overlay a color or image (optional).
     #   Deactivate an option by commenting out the line, prefixing it with `#`.
     # overlay_color: '#666'  # An HTML color value.
@@ -36,7 +36,7 @@ item:
     # title: Left
     content: 'Shallow stratocumulus and deep convective clouds in the North American monsoon. VIIRS NASA Worldview, 2021-07-02'
     align: right
-    overlay_color: '#555'
+    overlay_color: white
     #overlay_color: 'gray'
     # overlay_filter: 1
   - overlay_img: 'Sahara3.jpg'
