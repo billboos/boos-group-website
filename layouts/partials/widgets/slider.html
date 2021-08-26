@@ -23,7 +23,7 @@
     {{ if $item.overlay_img }}
       {{ $bg_img := resources.Get (printf "media/%s" $item.overlay_img) }}
       {{ if $bg_img }}
-        {{ $style_bg = printf "%sbackground-image: url('%s'); background-repeat: no-repeat;" $style_bg $bg_img.Permalink }}
+        {{ $style_bg = printf "%sbackground-image: url('%s'); background-repeat: no-repeat; margin: auto;" $style_bg $bg_img.Permalink }}
       {{ else }}
         {{ errorf "Couldn't find `%s` in the `assets/media/` folder - please add it." $item.overlay_img }}
       {{ end }}
@@ -39,7 +39,7 @@
         </h1>
 
         {{ with $item.content }}
-        <p class="hero-note" style="{{if eq $item.align "center"}}margin: 0 auto 0 auto;{{else if eq $item.align "right"}}margin-left: 30%; margin-right: 0; margin-top: 7.5cm; color: Black{{end}}">
+        <p class="hero-note" style="{{if eq $item.align "center"}}margin: 0 auto 0 auto;{{else if eq $item.align "right"}}margin-left: 30%; margin-right: 0; margin-top: 7.5cm; color: Oak Brown{{end}}">
           {{ . | markdownify | emojify }}
         </p>
         {{ end }}
