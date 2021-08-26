@@ -34,7 +34,7 @@ item:
     # cta_icon: graduation-cap
   - overlay_img: 'NorthAmericanMonsoon3.jpg'
     # title: Left
-    content: 'Shallow stratocumulus and deep convective clouds in the North American monsoon. VIIRS NASA Worldview, 2021-07-02'
+    content: 'Shallow stratocumulus, deep convective clouds in the North American monsoon. VIIRS NASA Worldview, 2021-07-02'
     align: right
     overlay_color: white
     #overlay_color: 'gray'
@@ -47,7 +47,7 @@ item:
     # overlay_color: '#333'
     # overlay_filter: 1
   - overlay_img: 'SomaliJet3.jpg'
-    content: 'Arabian Sea, where the Somali jet drives ocean upwelling. NASA MODIS 2018-11-23, color enhancements by Norman Kuring, NASA Ocean Biology'
+    content: 'Arabian Sea, where the Somali jet drives ocean upwelling. NASA MODIS 2018-11-23, color enhanced by Norman Kuring, NASA'
     align: right
     # overlay_filter: 1
 ---
