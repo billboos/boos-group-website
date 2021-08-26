@@ -15,7 +15,8 @@
 
     {{ $style_bg := "" }}
     {{with $page.Params.height}}
-      {{ $style_bg = printf "%s height: %s;" $style_bg . }}
+<!--      {{ $style_bg = printf "%s height: %s;" $style_bg . }}  -->
+      {{ $style_bg = printf "%s height: auto;" $style_bg . }}
     {{end}}
     {{ if $item.overlay_color }}
       {{ $style_bg = printf "%s background-color: %s;" $style_bg ($item.overlay_color | default "transparent") }}
