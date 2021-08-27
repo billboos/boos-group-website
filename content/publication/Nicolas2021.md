@@ -1,7 +1,4 @@
 ---
-# url_custom:
-#  - name: Preprint (via EarthArXiv)
-#    url: https://eartharxiv.org/repository/view/1827
 title: A theory for the response of tropical moist convection to mechanical orographic forcing
 publication_types:
   - "2"
@@ -14,8 +11,7 @@ abstract: Spatial patterns of tropical rainfall are strongly influenced by mount
 To evaluate the theory, we use a set of convection-permitting simulations with a flow-perpendicular ridge in a long channel. The theory makes a good prediction for the cross-slope precipitation profile, indicating that the organization of convective rain by orography can be quantitatively understood by considering the effect of stationary orographic gravity waves on a lower-tropospheric convective quasiequilibrium state.
 date: 2021-08-27
 selected: true
-# links:
-# - name: Journal site
-#  url: https://doi.org/10.1175/JCLI-D-20-0883.1
+links:
 url_pdf: pdf/NicolasBoos_submitted.pdf
+
 ---
