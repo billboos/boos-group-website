@@ -13,7 +13,7 @@ caption = ""
 
 ## **Impacts, Metrics, and Synoptic-Scale Drivers**
  
-A new multi-institutional effort to improve understanding and prediction of monsoon rainfall will launch in Fall 2018.  This effort is a partnership between [William Boos](http://boos.berkeley.edu) at UC Berkeley, [Travis O’Brien](https://eesa.lbl.gov/profiles/travis-a-obrien) at the Lawrence Berkeley National Lab, and [Paul Ullrich](https://climate.ucdavis.edu) at UC Davis.  
+The Monsoon Extremes project is a multi-institutional effort to improve understanding and prediction of monsoon rainfall.  This effort is a partnership between [William Boos](http://boos.berkeley.edu) at UC Berkeley, [Travis O’Brien](https://eesa.lbl.gov/profiles/travis-a-obrien) at the Lawrence Berkeley National Lab, and [Paul Ullrich](https://climate.ucdavis.edu) at UC Davis.  
 
 ### Project description 
  
