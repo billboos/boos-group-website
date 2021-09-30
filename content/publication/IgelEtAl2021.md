@@ -37,5 +37,4 @@ links:
 - name: Track dataset
   url: https://datadryad.org/stash/dataset/doi:10.25338/B8VS7T
 url_pdf: pdf/IgelEtAl2021_accepted.pdf
-
 ---
