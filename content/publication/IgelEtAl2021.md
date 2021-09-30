@@ -8,8 +8,8 @@ authors:
   - Matthew R. Igel
   - Paul A. Ullrich
   - William R. Boos
-publication: in review
-publication_short: in review
+publication: *Journal of Geophysical Research: Atmospheres*, in press, doi:10.1029/2021JD034541
+publication_short: *J. Geophys. Res. Atmos.*, in press, doi:10.1029/2021JD034541
 abstract: The North American monsoon is frequently affected by transient,
   propagating upper tropospheric vorticity anomalies.  Sometimes called Tropical
   Upper-Tropospheric Troughs (TUTTs), these features have been claimed to
