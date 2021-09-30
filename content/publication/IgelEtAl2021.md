@@ -1,4 +1,8 @@
 ---
+links:
+- name: Track dataset
+  url: https://datadryad.org/stash/dataset/doi:10.25338/B8VS7T
+url_pdf: pdf/IgelEtAl2021_accepted.pdf
 selected: true
 title: Upper-tropospheric troughs and North American monsoon rainfall in a
   long-term track dataset
@@ -8,8 +12,8 @@ authors:
   - Matthew R. Igel
   - Paul A. Ullrich
   - William R. Boos
-publication: *Journal of Geophysical Research: Atmospheres*, in press, doi:10.1029/2021JD034541
-publication_short: *J. Geophys. Res. Atmos.*, in press, doi:10.1029/2021JD034541
+publication: "*Journal of Geophysical Research: Atmospheres*, in press, doi:10.1029/2021JD034541"
+publication_short: "*J. Geophys. Res. Atmos.*, in press, doi:10.1029/2021JD034541"
 abstract: The North American monsoon is frequently affected by transient,
   propagating upper tropospheric vorticity anomalies.  Sometimes called Tropical
   Upper-Tropospheric Troughs (TUTTs), these features have been claimed to
@@ -33,8 +37,4 @@ abstract: The North American monsoon is frequently affected by transient,
   strong vorticity anomalies trapped in the upper troposphere that interact only
   weakly and indirectly with precipitation.
 date: 2021-08-18
-links:
-- name: Track dataset
-  url: https://datadryad.org/stash/dataset/doi:10.25338/B8VS7T
-url_pdf: pdf/IgelEtAl2021_accepted.pdf
 ---
