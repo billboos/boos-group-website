@@ -1,6 +1,6 @@
 ---
 links:
-url_pdf: pdf/IgelEtAl2021_accepted.pdf
+  url_pdf: pdf/IgelEtAl2021_accepted.pdf
 - name: Journal site
   url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD034541
 - name: Track dataset
