@@ -9,7 +9,7 @@ publication_types:
 authors:
   - Nandini Ramesh
   - William R. Boos
-publication: "accepted by *Geophysical Research Letters*"
+publication: "accepted by *Geophysical Research Letters*, doi:10.1029/2022GL099283"
 publication_short: "accepted by *Geophys. Res. Lett.*"
 date: 2022-06-08
 selected: true
