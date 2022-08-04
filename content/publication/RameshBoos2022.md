@@ -1,5 +1,7 @@
 ---
 links:
+- name: Journal site
+  url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022GL099283
 url_pdf: pdf/RameshBoos2022.pdf
 abstract: "Monsoons have historically been understood to be caused by the low thermal inertia of land, allowing more energy from summer insolation to be transferred to the overlying atmosphere than over adjacent ocean. Here we show that during boreal summer, the global maximum net energy input (NEI) to the atmosphere unexpectedly lies over the Indian Ocean, not over land. Observed radiative fluxes suggest that cloud-radiative effects (CRE) almost double the NEI over ocean, shifting the NEI peak from land to ocean.  
 Global climate model experiments with both land and interactive sea surface temperatures confirm that CRE create the oceanic NEI maximum. Interactions between CRE, NEI, circulation, and land-sea contrast in surface heat capacity shift precipitation from Southeast to South Asia. CRE thus alter the global partitioning of precipitation between land and ocean and the spatial structure of Earth's strongest monsoon, in ways that can be understood through the NEI."
