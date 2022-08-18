@@ -20,7 +20,6 @@ A position in the Ph.D. program of Berkeley's Department of Earth and Planetary 
 The student who takes on this position will, over the course of five years and in collaboration with William Boos, produce a body of original research that constitutes a doctoral thesis.
 This position is not tied to any particular project, and candidates are encouraged to think broadly and ambitiously about possible thesis topics.
 Interested students with strong quantitative backgrounds are encouraged to apply for admission to the [doctoral program](http://eps.berkeley.edu/graduate-students) of the Department of Earth and Planetary Science.
-Detailed information on our doctoral program can be found in the [graduate handbook](https://docs.google.com/document/d/1L6QZGsDXifje49LTfOKmtAbktOK3771a4iM08t7oPj4/edit?usp=sharing).
 
 This graduate student position includes complete financial support, meaning that tuition, fees, health insurance, and a stipend are all paid while you make satisfactory progress toward the Ph.D. degree.
 This typically means that five years of funding are provided.
