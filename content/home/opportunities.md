@@ -16,4 +16,4 @@ design:
 
 ---
 
-Our research group has an opening for a new graduate student to start in Fall 2022.  Details [can be found here](/opportunities/). 
+Our research group has an opening for a new graduate student to start in Fall 2023.  Details [can be found here](/opportunities/). 
