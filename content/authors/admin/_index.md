@@ -15,6 +15,9 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=AnKqc8UAAAAJ&hl=en&oi=ao
+  - icon: cv
+    icon_pack: ai
+    link: https://boos.berkeley.edu/pdf/Boos_CV_longform.pdf
 organizations:
   - name: Faculty Scientist, Lawrence Berkeley National Laboratory
 education:
