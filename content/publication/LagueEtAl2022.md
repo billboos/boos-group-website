@@ -1,14 +1,5 @@
 ---
-title: Downwind control of oceanic air by land: the land wake and its sensitivity to CO2
-publication_types:
-  - "2"
-authors:
-  - Marysa M. Laguë
-  - Gregory R. Quetin
-  - William R. Boos
-publication: "*Environmental Research Letters*"
-publication_short: "*Environ. Res. Lett.*, accepted"
-abstract: Oceans are well-known to be directly altered by global climate forcings such as greenhouse gas changes,
+abstract: "Oceans are well-known to be directly altered by global climate forcings such as greenhouse gas changes,
   but how oceans are indirectly influenced by land and its response to such forcings remains less explored. Here, 
   we assess the present-day and projected future state of a little-explored feature of the climate system -- a “land
   wake” in relative humidity downwind of the east coast of North America, consisting of low-humidity continental
@@ -20,6 +11,19 @@ abstract: Oceans are well-known to be directly altered by global climate forcing
   CO2 alter the summer wake from Florida to Newfoundland, and both the radiative and biogeochemical effects of CO2
   drive reductions in coastal cloud cover. These changes illustrate the potential of rapidly changing terrestrial
   climate to influence coastal regions and the ocean environment downwind of continents through both light conditions
-  and the energy balance of the surface ocean.
-
+  and the energy balance of the surface ocean."
+image_preview: ""
+publication_types:
+  - "2"
+authors:
+  - Marysa M. Laguë
+  - Gregory R. Quetin
+  - William R. Boos
+math: true
+title: "Downwind control of oceanic air by land: the land wake and its sensitivity to CO2"
+publication: "*Environmental Research Letters*"
+publication_short: "*Environ. Res. Lett.*, accepted"
+date: 2022-09-30
+selected: false
+url_pdf: pdf/LagueEtAl2022.pdf
 ---
