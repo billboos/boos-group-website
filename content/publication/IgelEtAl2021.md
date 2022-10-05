@@ -4,7 +4,7 @@ links:
   url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2021JD034541
 - name: Track dataset
   url: https://datadryad.org/stash/dataset/doi:10.25338/B8VS7T
-url_pdf: pdf/IgelEtAl2021_accepted.pdf
+url_pdf: pdf/IgelEtAl2021.pdf
 selected: true
 title: Upper-tropospheric troughs and North American monsoon rainfall in a
   long-term track dataset
