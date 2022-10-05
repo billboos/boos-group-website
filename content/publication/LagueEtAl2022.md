@@ -10,7 +10,7 @@ publication: "*Environmental Research Letters*"
 publication_short: "*Environ. Res. Lett.*, accepted"
 abstract: Oceans are well-known to be directly altered by global climate forcings such as greenhouse gas changes,
   but how oceans are indirectly influenced by land and its response to such forcings remains less explored. Here, 
-  we assess the present-day and projected future state of a little-explored feature of the climate system – a “land
+  we assess the present-day and projected future state of a little-explored feature of the climate system -- a “land
   wake” in relative humidity downwind of the east coast of North America, consisting of low-humidity continental
   air extending roughly 1,000 km over the Atlantic ocean. The wake exists throughout the year, but is supported by
   high continental temperatures in summer and low continental moisture in winter. The wake is well represented in 
@@ -21,7 +21,5 @@ abstract: Oceans are well-known to be directly altered by global climate forcing
   drive reductions in coastal cloud cover. These changes illustrate the potential of rapidly changing terrestrial
   climate to influence coastal regions and the ocean environment downwind of continents through both light conditions
   and the energy balance of the surface ocean.
-date: 2022-09-30
-selected: true
-url_pdf: pdf/LagueEtAl2022.pdf
+
 ---
