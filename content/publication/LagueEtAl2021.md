@@ -1,7 +1,4 @@
 ---
-url_custom:
-  - name: Preprint (via EarthArXiv)
-    url: https://eartharxiv.org/repository/view/1827
 title: Radiative feedbacks on land surface change and associated tropical
   precipitation shifts
 publication_types:
