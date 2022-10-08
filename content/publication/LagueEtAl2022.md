@@ -25,5 +25,9 @@ publication: "*Environmental Research Letters*"
 publication_short: "*Environ. Res. Lett.*, accepted"
 date: 2022-09-30
 selected: false
+links:
+- name: Journal site
+  url: https://iopscience.iop.org/article/10.1088/1748-9326/ac9702
 url_pdf: pdf/LagueEtAl2022.pdf
+
 ---
