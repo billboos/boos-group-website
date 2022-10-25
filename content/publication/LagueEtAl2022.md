@@ -21,7 +21,7 @@ authors:
   - William R. Boos
 math: true
 title: "Downwind control of oceanic air by land: the land wake and its sensitivity to CO2"
-publication: "*Environmental Research Letters*"
+publication: "*Environmental Research Letters*, **17**, 104045, doi:10.1088/1748-9326/ac9702"
 publication_short: "*Environ. Res. Lett.*, **17**, 104045, doi:10.1088/1748-9326/ac9702"
 date: 2022-09-30
 selected: false
