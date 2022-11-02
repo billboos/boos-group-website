@@ -15,4 +15,6 @@ publication: "*Geophysical Research Letters*, **49**, e2022GL099283, doi:10.1029
 publication_short: "*Geophys. Res. Lett.*, **49**, e2022GL099283, doi:10.1029/2022GL099283"
 date: 2022-06-08
 selected: false
+image_preview: ""
+
 ---
