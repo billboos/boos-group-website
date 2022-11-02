@@ -14,4 +14,6 @@ links:
 - name: Journal site
   url: https://journals.ametsoc.org/view/journals/atsc/aop/JAS-D-21-0218.1/JAS-D-21-0218.1.xml
 url_pdf: pdf/NicolasBoos2022.pdf
+math: true
+
 ---
