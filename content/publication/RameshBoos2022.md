@@ -16,5 +16,6 @@ publication_short: "*Geophys. Res. Lett.*, **49**, e2022GL099283, doi:10.1029/20
 date: 2022-06-08
 selected: false
 image_preview: ""
+math: true
 
 ---
