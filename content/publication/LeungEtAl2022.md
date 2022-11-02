@@ -29,5 +29,6 @@ links:
 - name: Journal site
   url: https://journals.ametsoc.org/view/journals/clim/aop/JCLI-D-21-0590.1/JCLI-D-21-0590.1.xml
 url_pdf: pdf/LeungEtAl2022.pdf
+math: true
 
 ---
