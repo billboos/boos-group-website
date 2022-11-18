@@ -13,6 +13,8 @@ publication_short: "*J. Atmos. Sci.*, accepted"
 date: 2022-11-01
 selected: false
 links:
+- name: Journal site
+  url: https://doi.org/10.1175/JAS-D-22-0146.1
 url_pdf: pdf/SuhasBoos2022.pdf
 
 ---
