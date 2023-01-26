@@ -24,7 +24,7 @@ Interested students with strong quantitative backgrounds are encouraged to apply
 This graduate student position includes complete financial support, meaning that tuition, fees, health insurance, and a salary are all paid while you make satisfactory progress toward the Ph.D. degree.
 This typically means that five years of funding are provided.
 The Ph.D. qualifying exam must be passed near the end of the second year, and all students are strongly encouraged to serve as a teaching assistant for at least two semesters during the five-year program.
-I can no longer provide information on salary amount, which is being determined after the recent new union contract with graduate student researchers.
+I can no longer provide information on salary amount, which is in the process of being determined after the recent new union contract with graduate student researchers.
 The financial support for your studies comes in a variety of forms, primarily governmental research grants to the Boos group but also fellowship programs and compensation for teaching assistant duties.
 
 [//]: # ( Prospective students who are interested in this opportunity are encouraged to contact Prof. William Boos [by email](mailto:william.boos@berkeley.edu), providing a transcript (unofficial is fine), a brief (e.g. 1-2 paragraph) statement of your research interests, and any other relevant materials you would like to be considered.
