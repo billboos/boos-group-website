@@ -2,7 +2,7 @@
 links:
 - name: Journal site
   url: https://iopscience.iop.org/article/10.1088/2752-5295/acb9b0/meta
-title: Regional tropical rainfall shifts under global warming: an energetic perspective
+title: "Regional tropical rainfall shifts under global warming: an energetic perspective"
 publication_types:
   - "2"
 authors:
