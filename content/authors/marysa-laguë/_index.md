@@ -28,7 +28,6 @@ email: marysa.lague@usask.ca
 superuser: false
 user_groups:
   - Postdoctoral Scientists
-  - Group Members
 
 organizations:
   - name: Visiting Research Fellow, Coldwater Lab, University of Saskatchewan Center for Hydrology
