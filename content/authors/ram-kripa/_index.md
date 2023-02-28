@@ -13,7 +13,6 @@ social:
 email: ram.m.kripa@berkeley.edu
 user_groups:
   - Researchers
-  - Group Members
 superuser: false
 
 education:
