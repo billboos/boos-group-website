@@ -16,4 +16,4 @@ design:
 
 ---
 
-Our research group has an opening for a new graduate student to start in Fall 2023.  Details [can be found here](/opportunities/). 
+We are currently evaluating applications for the [open Ph.D. student position](/opportunities/) in the Climate Dynamics group.  The Earth and Planetary Science department does not issue all admission decisions at the same time.  The timing of our admissions decisions takes into account the fact that [applicants have until April 15](https://cgsnet.org/resources/for-current-prospective-graduate-students/april-15-resolution/) to make decisions on offers from other universities; we do not have the capacity to respond to inquiries from all applicants who desire an earlier decision date. 
