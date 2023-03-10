@@ -12,9 +12,9 @@ authors:
   - John C. H. Chiang
   - Aixue Hu
   - William R. Boos
-publication: "*Environmental Research: Climate*, doi:10.1088/2752-5295/acb9b0"
-publication_short: "*Environ. Res.: Climate*, doi:10.1088/2752-5295/acb9b0"
-date: 2023-02-28
+publication: "*Environmental Research: Climate*, **2**, 015007, doi:10.1088/2752-5295/acb9b0"
+publication_short: "*Environ. Res.: Climate*, **2**, 015007, doi:10.1088/2752-5295/acb9b0"
+date: 2023-03-09
 selected: false
 image_preview: ""
 math: true
