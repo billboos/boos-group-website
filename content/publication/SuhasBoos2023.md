@@ -8,13 +8,13 @@ authors:
   - D.L. Suhas
   - William R. Boos
 math: true
-publication: "*Journal of the Atmospheric Sciences*, accepted"
-publication_short: "*J. Atmos. Sci.*, accepted"
-date: 2022-11-01
+publication: "*Journal of the Atmospheric Sciences*, **80**, 633-647, doi:10.1175/JAS-D-22-0146.1"
+publication_short: "*J. Atmos. Sci.*, **80**, 633-647, doi:10.1175/JAS-D-22-0146.1"
+date: 2023-02-07
 selected: false
 links:
 - name: Journal site
   url: https://doi.org/10.1175/JAS-D-22-0146.1
-url_pdf: pdf/SuhasBoos2022.pdf
+url_pdf: pdf/SuhasBoos2023.pdf
 
 ---
