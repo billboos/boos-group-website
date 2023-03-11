@@ -6,7 +6,7 @@ publication_types:
   - "2"
 authors:
   - Jing Han
-  - Ji Nie1
+  - Ji Nie
   - Yongyun Hu
   - William R. Boos
   - Yonggang Liu
