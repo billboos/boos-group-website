@@ -13,6 +13,8 @@ highlight = true
 
 
 
+**We have finished evaluating and accepting applications for the open Ph.D. student position in the Climate Dynamics group and won’t be admitting more students this cycle. There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.**
+
 
 ### Graduate student positions
 
@@ -37,7 +39,6 @@ Berkeley charges an application fee of USD 135 for US citizens and Permanent Res
 Unfortunately, Berkeley does not offer any formal fee waivers for international students.  However, if you are an international student who cannot afford to pay the application fee, you may upload a single PDF file containing a complete transcript (unofficial is fine), a [personal statement](https://grad.berkeley.edu/admissions/apply/personal-statement/), a [statement of purpose](https://grad.berkeley.edu/admissions/apply/statement-purpose/), and a cover letter briefly explaining your need for an application fee waiver to [this web portal](https://berkeley.app.box.com/f/c2b9d675604e47b7a8adfd96ae2da428) by November 1, 2022 (one month ahead of Berkeley's official application deadline of December 1).
 Students whose applications are very strongly competitive will be contacted and asked to provide a full application, including reference letters, by the December 1 deadline, and the application fee will be paid by the Boos research group. 
 
-We have finished evaluating applications for the open Ph.D. student position in the Climate Dynamics group and won’t be admitting more students this cycle. There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.
 
  
 [//]: # (Due to the number of inquiries, I cannot reply to individual requests concerning graduate admissions; I plan to arrange phone or video calls with a subset of candidates after reviewing applications.)
