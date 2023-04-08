@@ -21,7 +21,7 @@ The student who takes on this position will, over the course of five years and i
 This position is not tied to any particular project, and candidates are encouraged to think broadly and ambitiously about possible thesis topics.
 Interested students with strong quantitative backgrounds are encouraged to apply for admission to the [doctoral program](http://eps.berkeley.edu/graduate-students) of the Department of Earth and Planetary Science.
 
-The Ph.D. qualifying exam must be passed near the end of the second year, and all students are strongly encouraged to serve as a teaching assistant for at least two semesters during the five-year program.
+The Ph.D. qualifying exam must be passed near the end of the second year, and all students are strongly encouraged to serve as a teaching assistant for at least two semesters during the five-year program -- this provides a minimal amount of teaching experience, which is important if you intend to have any sort of career in academia.
 
 This graduate student position includes complete financial support, meaning that tuition, fees, health insurance, and a salary are all paid while you make satisfactory progress toward the Ph.D. degree.
 This typically means that five years of funding are provided.
