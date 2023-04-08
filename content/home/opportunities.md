@@ -16,4 +16,4 @@ design:
 
 ---
 
-We are currently evaluating applications for the [open Ph.D. student position](/opportunities/) in the Climate Dynamics group.  The Earth and Planetary Science department does not issue all admission decisions at the same time.  The timing of our admissions decisions takes into account the fact that [applicants have until April 15](https://cgsnet.org/resources/for-current-prospective-graduate-students/april-15-resolution/) to make decisions on offers from other universities; we do not have the capacity to respond to inquiries from all applicants who desire an earlier decision date. 
+We have finished evaluating applications for the [open Ph.D. student position](/opportunities/) in the Climate Dynamics group and won't be admitting more students this cycle.  There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.
