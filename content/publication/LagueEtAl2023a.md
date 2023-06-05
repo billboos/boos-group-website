@@ -13,7 +13,7 @@ math: true
 title: "Continental configuration controls the base-state water vapor greenhouse effect: lessons from half-land, half-water planets"
 publication: "*Climate Dynamics*, accepted"
 publication_short: "*Clim. Dyn.*, accepted"
-date: 2022-09-30
+date: 2023-06-05
 selected: false
 links:
 - name: EarthArXiv preprint
