@@ -16,6 +16,8 @@ publication_short: "*Environ. Res. Lett.*, accepted"
 date: 2023-06-05
 selected: false
 links:
+- name: Journal site
+  url: https://doi.org/10.1088/1748-9326/acdbe1
 url_pdf: pdf/LagueEtAl2023b.pdf
 
 ---
