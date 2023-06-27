@@ -10,11 +10,13 @@ authors:
   - Ram M. Kripa
   - William R. Boos
 math: true
-publication: "*npj Climate and Atmospheric Science*, accepted"
-publication_short: "*npj Clim. Atmos. Sci.*, accepted"
-date: 2023-04-11
+publication: "*npj Climate and Atmospheric Science*, **6**, 48, doi:10.1038/s41612-023-00376-5"
+publication_short: "*npj Clim. Atmos. Sci.*, **6**, 48, doi:10.1038/s41612-023-00376-5"
+date: 2023-05-27
 selected: false
 links:
+- name: Journal site
+  url: https://www.nature.com/articles/s41612-023-00376-5
 url_pdf: pdf/SuhasEtAl20230413.pdf
 
 ---
