@@ -11,13 +11,13 @@ authors:
   - William R. Boos
 math: true
 title: "Continental configuration controls the base-state water vapor greenhouse effect: lessons from half-land, half-water planets"
-publication: "*Climate Dynamics*, accepted"
-publication_short: "*Clim. Dyn.*, accepted"
+publication: "*Climate Dynamics*, doi: 10.1007/s00382-023-06857-w"
+publication_short: "*Clim. Dyn.*, doi: 10.1007/s00382-023-06857-w"
 date: 2023-06-05
 selected: false
 links:
-- name: EarthArXiv preprint
-  url: https://eartharxiv.org/repository/view/5196/
+- name: Journal site
+  url: https://link.springer.com/article/10.1007/s00382-023-06857-w
 url_pdf: pdf/LagueEtAl2023a.pdf
 
 ---
