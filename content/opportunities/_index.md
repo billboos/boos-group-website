@@ -13,22 +13,21 @@ highlight = true
 
 
 
-**We have finished evaluating and accepting applications for the open Ph.D. student position in the Climate Dynamics group and won’t be admitting more students this cycle. There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.**
+[//]: # ( **We have finished evaluating and accepting applications for the open Ph.D. student position in the Climate Dynamics group and won’t be admitting more students this cycle. There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.** )
 
 
 ### Graduate student positions
 
-A position in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will be available in the research group of William Boos, with start date in August 2023.
+A position in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will be available in the research group of William Boos, with start date in August 2024.
 The student who takes on this position will, over the course of five years and in collaboration with William Boos, produce a body of original research that constitutes a doctoral thesis.
-This position is not tied to any particular project, and candidates are encouraged to think broadly and ambitiously about possible thesis topics.
-Interested students with strong quantitative backgrounds are encouraged to apply for admission to the [doctoral program](http://eps.berkeley.edu/graduate-students) of the Department of Earth and Planetary Science.
+Our group has several focus areas for possible thesis topics, but we also encourage you to bring your own ideas.
+Applicants with strong quantitative backgrounds are encouraged to apply for admission to Berkeley's [doctoral program](http://eps.berkeley.edu/graduate-students) in Earth and Planetary Science.
 
-The Ph.D. qualifying exam must be passed near the end of the second year, and all students are strongly encouraged to serve as a teaching assistant for at least two semesters during the five-year program -- this provides a minimal amount of teaching experience, which is important if you intend to have any sort of career in academia.
+Students in our Ph.D. program must pass the qualifying exam near the end of the second year, and are expected to serve as a teaching assistant for at least two semesters during the five-year program.  Serving as a teaching assistant provides a minimal amount of teaching experience, which is important for many careers, including those in academia.
 
-This graduate student position includes complete financial support, meaning that tuition, fees, health insurance, and a salary are all paid while you make satisfactory progress toward the Ph.D. degree.
-This typically means that five years of funding are provided.
-I can no longer provide information on salary amount, as communication regarding this should be done only through official channels due to the new union contract with graduate students.
-The financial support that we provide for your five years of graduate studies amounts to about $550,000 and comes from a variety of sources, primarily governmental research grants to the Boos group; fellowship programs and compensation from the university for teaching assistant duties may also contribute.
+This graduate student position includes complete financial support, meaning that tuition, fees, health insurance, and a salary are all paid while you make satisfactory progress toward the Ph.D. degree (this typically means that five years of funding are provided).
+The salary is currently set to be at least $44,000 per year, with the exact amount determined by the contract between the University of California and the United Auto Workers Union, which our graduate students have joined.
+The financial support that we provide for your five years of graduate studies usually exceeds $500,000 and comes from a variety of sources, primarily governmental research grants to the Boos group; fellowship programs and compensation from the university for teaching assistant duties may also contribute.
 
 [//]: # ( Prospective students who are interested in this opportunity are encouraged to contact Prof. William Boos [by email](mailto:william.boos@berkeley.edu), providing a transcript (unofficial is fine), a brief (e.g. 1-2 paragraph) statement of your research interests, and any other relevant materials you would like to be considered.
 Due to the number of inquiries typically received, not all individual requests can be replied to; I strive to respond to prospective students whose applications would be strongly competitive for admission.  Video calls will be arranged with a subset of applicants after applications are reviewed (typically in January and February). )
