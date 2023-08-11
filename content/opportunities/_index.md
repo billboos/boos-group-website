@@ -34,7 +34,7 @@ Due to the number of inquiries typically received, I cannot reply to all individ
 
 Berkeley charges an application fee of USD 135 for US citizens and Permanent Residents, and USD 155 for all others.  Students who cannot afford to pay this application fee can apply for a [fee waiver](https://grad.berkeley.edu/admissions/apply/fee-waiver/) if they are a US citizen or Permanent Resident.
 Unfortunately, Berkeley does not offer fee waivers for international students.  However, if you are an international student who cannot afford to pay the application fee, you may upload a single PDF file containing a complete transcript (unofficial is fine), a [personal statement](https://grad.berkeley.edu/admissions/apply/personal-statement/), a [statement of purpose](https://grad.berkeley.edu/admissions/apply/statement-purpose/), and a cover letter briefly explaining your need for an application fee waiver to [this web portal](https://berkeley.app.box.com/f/c2b9d675604e47b7a8adfd96ae2da428) by November 1, 2023 (roughly one month ahead of Berkeley's official application deadline).
-Students whose applications are very strongly competitive will be contacted and asked to provide a full application, including reference letters, by the official university deadline, and the application fee will be paid by the Boos research group. 
+Students whose applications are very strongly competitive will be contacted and asked to provide a full application, including reference letters, by the official university deadline, and our research group will pay your application fee. 
 
 
  
