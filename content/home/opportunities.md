@@ -16,4 +16,4 @@ design:
 
 ---
 
-We have finished evaluating applications for the [open Ph.D. student position](/opportunities/) in the Climate Dynamics group and won't be admitting more students this cycle.  There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.
+There is an [opening for a Ph.D. student](/opportunities/) to start in our group in Fall 2024, with applications due in early December 2023.
