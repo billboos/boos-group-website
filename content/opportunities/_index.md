@@ -18,10 +18,10 @@ highlight = true
 
 ### Graduate student positions
 
-A position in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will be available in the research group of William Boos, with start date in August 2024.
+A position in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will be available in the research group of William Boos, with start date in August 2024.  Applicants must have strong quantitative backgrounds.
 The student who takes on this position will, over the course of five years and in collaboration with William Boos, produce a body of original research that constitutes a doctoral thesis.
 Our group has several focus areas for possible thesis topics, but we also encourage you to bring your own ideas.
-Applicants with strong quantitative backgrounds are encouraged to apply for admission to Berkeley's [doctoral program](http://eps.berkeley.edu/graduate-students) in Earth and Planetary Science.
+Applications should be submitted through Berkeley's [doctoral program](http://eps.berkeley.edu/graduate-students) in Earth and Planetary Science.
 
 Students in our Ph.D. program must pass the qualifying exam near the end of the second year, and are expected to serve as a teaching assistant for at least two semesters during the five-year program.  Serving as a teaching assistant provides a minimal amount of teaching experience, which is important for many careers, including those in academia.
 
