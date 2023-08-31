@@ -1,6 +1,6 @@
 ---
 title: Ram Kripa
-role: Undergraduate intern
+role: Visiting Student Researcher
 avatar_filename: avatar.jpg
 bio: Electrical Engineering & Computer Science major (UC Berkeley)
 social:
@@ -13,6 +13,7 @@ social:
 email: ram.m.kripa@berkeley.edu
 user_groups:
   - Researchers
+  - Group Members
 superuser: false
 
 education:
