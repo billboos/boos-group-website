@@ -22,12 +22,12 @@ education:
       institution: MIT
     - course: BS Physics, BA Math
       institution: State University of New York, Binghamton
-superuser: false
+superuser: true
 user_groups:
   - Principal Investigator
   - Group Members
 email: "william.boos@berkeley.edu"
-# weight: 2
+weight: 2
 
 ---
 
