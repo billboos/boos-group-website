@@ -1,7 +1,7 @@
 ---
 title: William R. Boos
 role: Associate Professor
-avatar_filename: avatar.jpg
+avatar_filename: williamboos.jpg
 bio: Ph.D. (MIT)
 social:
   - icon: twitter
