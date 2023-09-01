@@ -18,7 +18,9 @@ superuser: false
 
 education:
   courses:
-    - course: Electrical Engineering & Computer Science major
+    - course: BS Electrical Engineering & Computer Science
       institution: UC Berkeley
-      # year: 2008
+    - course: MA Computational Social Science (in progress)
+      institution:  University of Chicago 
+  
 ---
