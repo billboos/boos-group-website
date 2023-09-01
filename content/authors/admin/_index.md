@@ -1,5 +1,7 @@
 ---
+title: William R. Boos
 role: Associate Professor
+avatar_filename: avatar.jpg
 interests:
   - ' '
 #  - Atmospheric dynamics
@@ -24,19 +26,14 @@ education:
   courses:
     - course: PhD Atmospheric Science
       institution: MIT
-      # year: 2008
     - course: MSc Geosystems
       institution: MIT
-      # year: 2002
     - course: BS Physics, BA Math
       institution: State University of New York, Binghamton
-      # year: 1997
 superuser: true
 user_groups:
   - Principal Investigator
   - Group Members
-highlight_name: false
-title: William R. Boos
 email: "william.boos@berkeley.edu"
 weight: 2
 
