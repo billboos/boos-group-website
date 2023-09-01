@@ -1,7 +1,7 @@
 ---
 title: William R. Boos
 role: Associate Professor
-avatar_filename: williamboos.jpg
+avatar_filename: avatar.jpg
 bio: Ph.D. (MIT)
 social:
   - icon: twitter
@@ -13,6 +13,8 @@ social:
   - icon: cv
     icon_pack: ai
     link: https://boos.berkeley.edu/pdf/Boos_CV_longform.pdf
+email: william.boos@berkeley.edu
+superuser: false
 user_groups:
   - Principal Investigator
   - Group Members
