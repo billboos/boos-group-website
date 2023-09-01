@@ -2,15 +2,7 @@
 title: William R. Boos
 role: Associate Professor
 avatar_filename: avatar.jpg
-interests:
-  - ' '
-#  - Atmospheric dynamics
-#  - Tropical climate, including monsoons and tropical cyclones
-#  - Earth's hydrological cycle
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #  link: mailto:william.boos@berkeley.edu
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/BillBoos
@@ -20,8 +12,8 @@ social:
   - icon: cv
     icon_pack: ai
     link: https://boos.berkeley.edu/pdf/Boos_CV_longform.pdf
-organizations:
-  - name: Faculty Scientist, Lawrence Berkeley National Laboratory
+# organizations:
+#  - name: Faculty Scientist, Lawrence Berkeley National Laboratory
 education:
   courses:
     - course: PhD Atmospheric Science
@@ -30,12 +22,12 @@ education:
       institution: MIT
     - course: BS Physics, BA Math
       institution: State University of New York, Binghamton
-superuser: true
+superuser: false
 user_groups:
   - Principal Investigator
   - Group Members
 email: "william.boos@berkeley.edu"
-weight: 2
+# weight: 2
 
 ---
 
