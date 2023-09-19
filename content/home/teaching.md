@@ -17,7 +17,7 @@ design:
 
 Previous courses:
 - EPS 81 | Extreme Weather and Climate (Spring 2023)
-- EPS c181 |  Atmospheric Physics and Dynamics (Fall 2017, 2018, 2019, 2020, Spring 2022, Fall 2022)
+- EPS c181 |  Atmospheric Physics and Dynamics (Fall 2017, 2018, 2019, 2020, Spring 2022, Fall 2022, 2023)
 - EPS 81 | Atmospheres (Spring 2019, 2020)
 - EPS 198 | Careers in Earth and Planetary Science (Spring 2022)
 - EPS 24 | Death by Water: Risk, Science, and Impacts of Hydrological Extremes (Fall 2017, 2019)
@@ -27,7 +27,6 @@ Previous courses:
 - Yale GG 570 | Cloud Physics and Dynamics, co-taught with Trude Storelvmo (Spring 2011, 2014)
 
 Upcoming courses:
-- EPS c181 |  Atmospheric Physics and Dynamics (Fall 2023)
 - EPS 81 | Extreme Weather and Climate (Spring 2024)
 - EPS 198 | Careers in the Earth and Planetary Sciences and Beyond (Spring 2024)
 
