@@ -15,7 +15,7 @@ authors:
   - William R. Boos
 publication: "*Journal of Climate*, **36**, 6309-6329, doi:10.1175/JCLI-D-22-0476.1"
 publication_short: "*J. Climate*, **36**, 6309-6329, doi:10.1175/JCLI-D-22-0476.1"
-date: 2023-08-22
+date: 2023-05-30
 selected: false
 image_preview: ""
 math: true
