@@ -16,7 +16,7 @@ highlight = true
 [//]: # ( **We have finished evaluating and accepting applications for the open Ph.D. student position in the Climate Dynamics group and won’t be admitting more students this cycle. There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.** )
 
 
-** update from William Boos, November 27, 2023:  As stated below, the deadline for applications to our Ph.D. program is December 4, 2023.  As stated below, I expect to arrange video interviews with some candidates in January/February 2024.  If you have sent me an inquiry about the application process and I have not replied, that is only because I do not have the capacity to respond to all the emails I receive; I prioritize interactions with the people who are currently part of my research group, the students I teach in my courses, and the current members of my department.**
+*update from William Boos, November 27, 2023:  As stated below, the deadline for applications to our Ph.D. program is December 4, 2023.  As stated below, I expect to arrange video interviews with some candidates in January/February 2024.  If you have sent me an inquiry about the application process and I have not replied, that is only because I do not have the capacity to respond to all the emails I receive; I prioritize interactions with the people who are currently part of my research group, the students I teach in my courses, and the current members of my department.*
 
 ### Graduate student positions
 
