@@ -30,7 +30,8 @@ authors:
   - Arthur D. Adams
   - William R. Boos
   - Eric T. Wolf
-publication: Astronomical Journal
+publication: "*Astronomical Journal*, 2019, **157**, 189(19pp),
+  doi:10.3847/1538-3881/ab107f"
 publication_short: "*Astronomical Journal*, 2019, **157**, 189(19pp),
   doi:10.3847/1538-3881/ab107f"
 date: 2019-04-22
