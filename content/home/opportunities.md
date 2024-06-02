@@ -16,4 +16,4 @@ design:
 
 ---
 
-There is an [opening for a Ph.D. student](/opportunities/) to start in our group in Fall 2024, with applications due in early December 2023.
+There is an [opening for at least one Ph.D. student](/opportunities/) to start in our group in Fall 2025, with applications due in early December 2024.
