@@ -1,0 +1,21 @@
+---
+title: Bolei Yang
+role: Visiting Scholar (Boya postdoctoral fellow at Peking University)
+avatar_filename: avatar.png
+bio: PhD Atmospheric Science (Nanjing University)
+social:
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=PC_sQ98AAAAJ&hl=en&oi=ao
+email: ybl@berkeley.edu
+superuser: false
+user_groups:
+  - Group Members
+
+education:
+  courses:
+    - course: PhD Atmospheric Science
+      institution: Nanjing University
+      # year: 2008
+
+---
