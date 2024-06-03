@@ -16,6 +16,6 @@ selected: true
 
 links:
 - name: Journal site
-  url: https://doi.org/10.5194/gmd-17-3533-2024
+  url: https://doi.org/10.5194/wcd-5-763-2024
 url_pdf: pdf/ByrneEtAl2024.pdf
 ---
