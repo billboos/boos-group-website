@@ -10,12 +10,16 @@ social:
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/Quentin-Nicolas
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=ylq33eMAAAAJ&hl=en&oi=ao
   - display:
     header: false
-    link: https://eps.berkeley.edu/people/quentin-nicolas
+    link: http://qnicolas.github.io/
     icon_pack: fas
     icon: globe
     label: Personal website
+    
 email: qnicolas@berkeley.edu
 superuser: false
 user_groups:
