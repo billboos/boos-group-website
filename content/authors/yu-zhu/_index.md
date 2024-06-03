@@ -1,7 +1,7 @@
 ---
 title: Yu Zhu
 role: Undergraduate intern
-avatar_filename: avatar.jpg
+avatar_filename: YuZhu.jpg
 bio: Statistics major
 superuser: false
 user_groups:
