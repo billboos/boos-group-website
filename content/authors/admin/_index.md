@@ -13,6 +13,9 @@ social:
   - icon: cv
     icon_pack: ai
     link: https://boos.berkeley.edu/pdf/Boos_CV_longform.pdf
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/william-boos/
 email: william.boos@berkeley.edu
 superuser: false
 user_groups:
