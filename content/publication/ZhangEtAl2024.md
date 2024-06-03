@@ -1,7 +1,8 @@
 ---
 links:
-- name: Preprint (ESSOAr)
-  url: https://essopenarchive.org/users/678322/articles/674990-forecasting-tropical-annual-maximum-wet-bulb-temperatures-months-in-advance-from-the-current-state-of-el-niño
+url_pdf: pdf/ZhangEtAl2024.pdf
+- name: Journal site
+  url: https://doi.org/10.1029/2023GL106990
 - name: Forecast for 2024
   url: https://yzhang-aos.github.io/forecast/
 title: "Forecasting Tropical Annual Maximum Wet-Bulb Temperatures Months in Advance from the Current State of El Niño"
@@ -14,9 +15,9 @@ authors:
   - Isaac M. Held
   - Christopher J. Paciorek
   - Stephan Fueglistaler
-publication: "In review"
-publication_short: "In review"
-date: 2024-01-05
+publication: "*Geophysical Research Letters*, **51**, e2023GL106990. https://doi.org/10.1029/2023GL106990"
+publication_short: "*Geophysical Research Letters*, **51**, e2023GL106990. https://doi.org/10.1029/2023GL106990"
+date: 2024-04-05
 selected: true
 
 ---
