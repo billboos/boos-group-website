@@ -17,7 +17,7 @@ highlight = true
 
 ### Graduate student positions
 
-A position in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will be available in our research group, with start date in August 2025.  Applicants must have strong quantitative backgrounds.
+Up to two positions in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will be available in our research group, with start date in August 2025.  Applicants must have strong quantitative backgrounds.
 The student who takes on this position will, over the course of five years and in collaboration with me (William Boos), produce a body of original research that constitutes a doctoral thesis.
 Our group has several focus areas for possible thesis topics, but we also encourage you to bring your own ideas.
 See [here for more information](https://eps.berkeley.edu/student-resources/graduate-students) on our Ph.D. program.
