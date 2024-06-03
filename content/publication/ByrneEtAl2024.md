@@ -10,7 +10,7 @@ authors:
   - William R. Boos
   - Shineng Hu
 publication: "*Weather and Climate Dynamics*, **5**, 763–777, https://doi.org/10.5194/wcd-5-763-2024"
-publication_short: "*Weather Clim. Dynam.*, **5**, 763–777, https://doi.org/10.5194/wcd-5-763-2024
+publication_short: "*Weather Clim. Dynam.*, **5**, 763–777, https://doi.org/10.5194/wcd-5-763-2024"
 date: 2024-05-22
 selected: true
 
