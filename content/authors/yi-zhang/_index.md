@@ -12,6 +12,7 @@ social:
     link: https://scholar.google.com/citations?user=bbaxFZoAAAAJ&hl=en&oi=sra
 superuser: false
 user_groups:
+  - Group Members
   - Postdoctoral Scientists
 
 education:
