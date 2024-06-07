@@ -1,8 +1,8 @@
 ---
 title: Bolei Yang
-role: Visiting Scholar (Boya postdoctoral fellow at Peking University)
+role: Visiting Scholar
 avatar_filename: BoleiYang.jpg
-bio: PhD Atmospheric Science (Nanjing University)
+bio: Boya postdoctoral fellow (Peking University), PhD Atmospheric Science (Nanjing University)
 social:
   - icon: google-scholar
     icon_pack: ai
