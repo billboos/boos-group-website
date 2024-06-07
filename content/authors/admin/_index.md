@@ -1,5 +1,5 @@
 ---
-title: William R. Boos
+title: William Boos
 role: Associate Professor
 avatar_filename: avatar.jpg
 bio: Ph.D. (MIT)
