@@ -1,7 +1,7 @@
 ---
 title: Tyler Yang
-role: undergraduate intern
-avatar_filename: avatar.png
+role: Undergraduate Intern
+avatar_filename: avatar.jpg
 bio: Computer Science major, Physics minor
 social:
   - icon: linkedin
