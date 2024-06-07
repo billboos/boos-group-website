@@ -10,7 +10,7 @@ weight: 2
 
 education:
   courses:
-    - course: International exchange student
-      institution: East China Normal University
+    - course: Statistics major
+      institution: International exchange student, East China Normal University
 
 ---
