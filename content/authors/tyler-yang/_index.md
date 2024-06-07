@@ -17,6 +17,6 @@ education:
   courses:
     - course: Computer Science major, Physics minor
       institution: UC Berkeley
-      year: 2025
+      year: expected 2025
 
 ---
