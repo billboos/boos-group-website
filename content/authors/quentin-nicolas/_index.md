@@ -1,6 +1,6 @@
 ---
 title: Quentin Nicolas
-role: PhD Candidate
+role: just graduated; starting ETH Postdoc Fellowship Jan. 2025
 avatar_filename: avatar.png
 bio: MS Applied Math (Ecole Polytechnique)
 social:
