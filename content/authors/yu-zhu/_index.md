@@ -5,7 +5,7 @@ avatar_filename: avatar.jpg
 bio: Statistics major
 superuser: false
 user_groups:
-  - Group Members
+#  - Group Members
 weight: 2
 
 education:
