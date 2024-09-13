@@ -1,6 +1,6 @@
 ---
 title: Yi Zhang
-role: Miller Postdoctoral Fellow
+role: Former Miller Postdoctoral Fellow; now Assistant Prof. NYU Courant
 avatar_filename: yizhang.jpg
 bio: Ph.D. (Princeton)
 social:
