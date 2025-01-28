@@ -24,8 +24,7 @@ email: qnicolas@berkeley.edu
 superuser: false
 user_groups:
   - Graduate Students
-  - Group Members
-
+    
 education:
   courses:
     - course: MS Applied Math
