@@ -1,7 +1,7 @@
 ---
 title: Mayank Gupta
 role: Postdoc (Lead Researcher, U Chicago Trust monsoon prediction)
-avatar_filename: mayankgupta.jpeg
+avatar_filename: mayankgupta.jpg
 bio: PhD Urban Science and Engineering (Indian Institute of Technology Bombay)
 social:
   - icon: google-scholar
