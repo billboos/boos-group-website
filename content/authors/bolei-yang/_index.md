@@ -10,8 +10,7 @@ social:
 email: ybl@berkeley.edu
 superuser: false
 user_groups:
-  - Group Members
-
+ 
 education:
   courses:
     - course: PhD Atmospheric Science
