@@ -15,7 +15,7 @@ design:
 ---
 
 Real-time operational forecasts of South Asian monsoon depressions:
- - [deterministic forecasts](https://worldmonsoons.org/LPStrackingSite/)
+# - [deterministic forecasts](https://worldmonsoons.org/LPStrackingSite/)
  - [probabilistic forecasts](https://worldmonsoons.org/LPStrackingSite/index_gefs.html)
   
 Global track datasets of monsoon disturbances:
