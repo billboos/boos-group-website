@@ -11,7 +11,6 @@ social:
 email: tyang25@berkeley.edu
 superuser: false
 user_groups:
-  - Group Members
 
 education:
   courses:
