@@ -1,7 +1,7 @@
 ---
 title: Dashiell Carrel
 role: PhD student
-avatar_filename: dashiellcarrel.png
+avatar_filename: avatar.jpg
 bio: BS Physics (UC Santa Barbara)
 social:
 #  - display:
