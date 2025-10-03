@@ -77,3 +77,7 @@ related:
       weight: 100
     - name: categories
       weight: 70
+params:
+  footer:
+    show_powered_by: false
+
