@@ -1,0 +1,11 @@
+.powered-by {
+  display: none !important;
+}
+
+/* Alternative selectors in case the class name is different */
+footer .powered-by,
+.site-footer .powered-by,
+[class*="powered"],
+[class*="wowchemy"] {
+  display: none !important;
+}
