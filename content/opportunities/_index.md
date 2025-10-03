@@ -27,7 +27,7 @@ These positions will help expand [our successful effort](https://news.berkeley.e
 
 [Lead Researcher (PhD level position)](https://www.diluchicago.in/leadreasearcher-hcf)
 
-[Research Data Scientist (BS/MS level position](https://www.diluchicago.in/research-data-scientist)
+[Research Data Scientist (BS/MS level position)](https://www.diluchicago.in/research-data-scientist)
 
 
 ### PhD student position at UC Berkeley
