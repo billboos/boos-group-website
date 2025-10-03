@@ -130,4 +130,6 @@ icon:
     ai: true
 footer:
   show_powered_by: false
+  show_wowchemy_credit: false
+  powered_by: false
 
