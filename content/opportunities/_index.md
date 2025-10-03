@@ -17,14 +17,27 @@ highlight = true
 
 **Updated October 2, 2025**
 
+### 2 Postdoc positions
+
+[Building Next-Generation Climate Tools for African Agriculture](https://worldmonsoons.org/GatesAfricanagpostdocad.html)
+
+### Multiple positions based in India with our monsoon forecasting project
+
+These positions will help expand our successful effort in predicting regional monsoon onset for 38 million farmers in India in 2025, in partnership with the University of Chicago:
+[UC Berkeley news article](https://news.berkeley.edu/2025/09/16/ai-revolutionizes-weather-prediction-to-help-farmers-in-india)
+[University of Chicago press release](https://humancenteredforecasts.climate.uchicago.edu/forecasting-the-onset-of-the-indian-monsoon)
+[Lead Researcher (PhD level position)](https://www.diluchicago.in/leadreasearcher-hcf)
+[Research Data Scientist (BS/MS level position](https://www.diluchicago.in/research-data-scientist)
+
+
 ### Graduate student positions
 
-A position in the Ph.D. program of Berkeley's Department of Earth and Planetary Science will likely be available in our research group, with start date in August 2026.  Applicants must have strong quantitative backgrounds, with outstanding grades in numerous physics and math courses at the undergraduate level.
+A position in the PhD program of Berkeley's Department of Earth and Planetary Science will likely be available in our research group, with start date in August 2026.  Applicants must have strong quantitative backgrounds, with outstanding grades in numerous physics and math courses at the undergraduate level.
 Each student who takes on one of these positions will, over the course of five years and in collaboration with me (William Boos), produce a body of original research that constitutes a doctoral thesis.
 Our group has several focus areas for possible thesis topics, but we also encourage you to bring your own ideas.
-See [here for more information](https://eps.berkeley.edu/student-resources/graduate-students) on our Ph.D. program.
+See [here for more information](https://eps.berkeley.edu/student-resources/graduate-students) on our PhD program.
 
-Students entering our Ph.D. program must pass the qualifying exam near the end of the second year, and are expected to serve as a teaching assistant for at least two semesters during their first two years.  Serving as a teaching assistant for these two semesters provides what we consider the minimum amount of teaching experience needed for many careers, including those in academia.
+Students entering our PhD program must pass the qualifying exam near the end of the second year, and are expected to serve as a teaching assistant for at least two semesters during their first two years.  Serving as a teaching assistant for these two semesters provides what we consider the minimum amount of teaching experience needed for many careers, including those in academia.
 
 These graduate student positions include financial support for the duration of your studies, typically five years.  Details of this support are determined by the contract between the University of California and the United Auto Workers Union, which UC graduate students have joined.
 The total funding that is used to support your five years of graduate studies usually exceeds USD 500,000 and comes from a variety of sources, primarily governmental research grants to our research group; fellowship programs and compensation for teaching assistant duties may also contribute.
