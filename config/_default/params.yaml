@@ -128,3 +128,6 @@ cms:
 icon:
   pack:
     ai: true
+footer:
+  show_powered_by: false
+
