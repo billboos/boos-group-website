@@ -16,4 +16,4 @@ design:
 
 ---
 
-There is an [opening for at least one Ph.D. student](/opportunities/) to start in our group in Fall 2025, with applications due in early December 2024.
+We have immediate openings for 2 postdocs at Berkeley and several openings for PhD-level and BS/MS-level scientists in India on our monsoon forecasting project.  We also expect to admit one student into Berkeley's PhD program to start in Fall 2026, with applications due in early December 2025.  See [here for more details](https://boos.berkeley.edu/opportunities/) on all of these opportunities.
