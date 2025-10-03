@@ -24,9 +24,13 @@ highlight = true
 ### Multiple positions based in India with our monsoon forecasting project
 
 These positions will help expand our successful effort in predicting regional monsoon onset for 38 million farmers in India in 2025, in partnership with the University of Chicago:
+
 [UC Berkeley news article](https://news.berkeley.edu/2025/09/16/ai-revolutionizes-weather-prediction-to-help-farmers-in-india)
+
 [University of Chicago press release](https://humancenteredforecasts.climate.uchicago.edu/forecasting-the-onset-of-the-indian-monsoon)
+
 [Lead Researcher (PhD level position)](https://www.diluchicago.in/leadreasearcher-hcf)
+
 [Research Data Scientist (BS/MS level position](https://www.diluchicago.in/research-data-scientist)
 
 
