@@ -17,7 +17,7 @@ highlight = true
 
 **Updated October 2, 2025**
 
-### 2 Postdoc positions
+### Two Postdoctoral positions at UC Berkeley
 
 [Building Next-Generation Climate Tools for African Agriculture](https://worldmonsoons.org/GatesAfricanagpostdocad.html)
 
@@ -30,7 +30,7 @@ These positions will help expand our successful effort in predicting regional mo
 [Research Data Scientist (BS/MS level position](https://www.diluchicago.in/research-data-scientist)
 
 
-### Graduate student positions
+### PhD student position at UC Berkeley
 
 A position in the PhD program of Berkeley's Department of Earth and Planetary Science will likely be available in our research group, with start date in August 2026.  Applicants must have strong quantitative backgrounds, with outstanding grades in numerous physics and math courses at the undergraduate level.
 Each student who takes on one of these positions will, over the course of five years and in collaboration with me (William Boos), produce a body of original research that constitutes a doctoral thesis.
