@@ -21,8 +21,7 @@ highlight = true
 
 [Building Next-Generation Climate Tools for African Agriculture](https://worldmonsoons.org/GatesAfricanagpostdocad.html)
 
-[//]: # (  
-### Multiple positions based in India with our monsoon forecasting project
+[//]: # ( ### Multiple positions based in India with our monsoon forecasting project
 
 These positions will help expand [our successful effort](https://news.berkeley.edu/2025/09/16/ai-revolutionizes-weather-prediction-to-help-farmers-in-india) in predicting regional monsoon onset for 38 million farmers in India in 2025, in [partnership with the University of Chicago](https://humancenteredforecasts.climate.uchicago.edu/forecasting-the-onset-of-the-indian-monsoon):
 
