@@ -21,13 +21,14 @@ highlight = true
 
 [Building Next-Generation Climate Tools for African Agriculture](https://worldmonsoons.org/GatesAfricanagpostdocad.html)
 
-[//]: # ( ** ### Multiple positions based in India with our monsoon forecasting project
+[//]: # (  
+### Multiple positions based in India with our monsoon forecasting project
 
 These positions will help expand [our successful effort](https://news.berkeley.edu/2025/09/16/ai-revolutionizes-weather-prediction-to-help-farmers-in-india) in predicting regional monsoon onset for 38 million farmers in India in 2025, in [partnership with the University of Chicago](https://humancenteredforecasts.climate.uchicago.edu/forecasting-the-onset-of-the-indian-monsoon):
 
 [Lead Researcher (PhD level position)](https://www.diluchicago.in/leadreasearcher-hcf)
 
-[Research Data Scientist (BS/MS level position)](https://www.diluchicago.in/research-data-scientist) ** )
+[Research Data Scientist (BS/MS level position)](https://www.diluchicago.in/research-data-scientist) )
 
 
 ### PhD student position at UC Berkeley (applications still being evaluated)
