@@ -15,22 +15,22 @@ highlight = true
 
 [//]: # ( **We have finished evaluating and accepting applications for the open Ph.D. student position in the Climate Dynamics group and won’t be admitting more students this cycle. There will be a similar opening next year, with a start date in Fall 2024 and application deadline in late 2023.  *update from William Boos, November 27, 2023:*  The deadline for applications to our Ph.D. program is December 4, 2023.  As stated below, I expect to arrange video interviews with some candidates in January/February 2024.  If you have sent me an inquiry about the application process and I have not replied, that is only because I do not have the capacity to respond to all the emails I receive; I prioritize interactions with the people who are currently part of my research group, the students I teach in my courses, and the current members of my department.  ** )
 
-**Updated October 2, 2025**
+**Updated March 9, 2026**
 
-### Two Postdoctoral positions at UC Berkeley
+### Two Postdoctoral positions at UC Berkeley (positions still open)
 
 [Building Next-Generation Climate Tools for African Agriculture](https://worldmonsoons.org/GatesAfricanagpostdocad.html)
 
-### Multiple positions based in India with our monsoon forecasting project
+[//]: # ( ** ### Multiple positions based in India with our monsoon forecasting project
 
 These positions will help expand [our successful effort](https://news.berkeley.edu/2025/09/16/ai-revolutionizes-weather-prediction-to-help-farmers-in-india) in predicting regional monsoon onset for 38 million farmers in India in 2025, in [partnership with the University of Chicago](https://humancenteredforecasts.climate.uchicago.edu/forecasting-the-onset-of-the-indian-monsoon):
 
 [Lead Researcher (PhD level position)](https://www.diluchicago.in/leadreasearcher-hcf)
 
-[Research Data Scientist (BS/MS level position)](https://www.diluchicago.in/research-data-scientist)
+[Research Data Scientist (BS/MS level position)](https://www.diluchicago.in/research-data-scientist) ** )
 
 
-### PhD student position at UC Berkeley
+### PhD student position at UC Berkeley (applications still being evaluated)
 
 A position in the PhD program of Berkeley's Department of Earth and Planetary Science will likely be available in our research group, with start date in August 2026.  Applicants must have strong quantitative backgrounds, with outstanding grades in numerous physics and math courses at the undergraduate level.
 Each student who takes on one of these positions will, over the course of five years and in collaboration with me (William Boos), produce a body of original research that constitutes a doctoral thesis.
