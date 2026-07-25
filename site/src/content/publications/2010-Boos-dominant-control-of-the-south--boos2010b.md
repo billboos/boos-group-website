@@ -13,6 +13,6 @@ links:
   video: ""
 doi: "10.1038/nature08707"
 description: "Published in Nature."
-featured: false
+featured: true
 ---
 Published in Nature.

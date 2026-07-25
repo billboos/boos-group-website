@@ -13,6 +13,6 @@ links:
   video: ""
 doi: "10.1175/BAMS-D-23-0067.1"
 description: "Published in Bulletin of the American Meteorological Society."
-featured: false
+featured: true
 ---
 Published in Bulletin of the American Meteorological Society.

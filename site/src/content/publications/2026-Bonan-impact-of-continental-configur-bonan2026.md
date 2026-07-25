@@ -13,6 +13,6 @@ links:
   video: ""
 doi: "10.1029/2025GL120128"
 description: "Published in Geophysical Research Letters."
-featured: false
+featured: true
 ---
 Published in Geophysical Research Letters.
