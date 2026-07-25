@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getEntry, render } from 'astro:content';
+
+const page = await getEntry('pages', 'about');
+if (!page) throw new Error('Missing required content entry: pages/about.md');
+const { Content } = await render(page);
+---
+
+<Layout title={page.data.title} description={page.data.description}>
+  <article class="max-w-3xl mx-auto px-4 py-12 sm:py-20 prose prose-blue dark:prose-invert">
+    <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8 not-prose">{page.data.title}</h1>
+    <Content />
+  </article>
+</Layout>

@@ -1,0 +1,152 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TeamCard from '../components/TeamCard.astro';
+import { getCollection } from 'astro:content';
+
+const allMembers = await getCollection('team');
+
+const alumniMembers = allMembers
+  .filter(m => m.data.role === 'Alumni')
+  .sort((a, b) => (a.data.weight || 100) - (b.data.weight || 100));
+
+const indiaMembers = allMembers
+  .filter(m => m.data.group === 'india' && m.data.role !== 'Alumni')
+  .sort((a, b) => (a.data.weight || 100) - (b.data.weight || 100));
+
+const berkeleyMembers = allMembers.filter(
+  m => m.data.role !== 'Alumni' && m.data.group !== 'india'
+);
+
+// Define groups based on domestic hierarchy + international standard
+const groups = [
+  {
+    id: 'pi',
+    titleKey: 'team.pi',
+    title: 'Principal Investigator',
+    roles: ['Principal Investigator']
+  },
+  {
+    id: 'faculty',
+    titleKey: 'team.faculty',
+    title: 'Faculty',
+    roles: ['Professor', 'Associate Professor', 'Assistant Professor']
+  },
+  {
+    id: 'postdoc',
+    titleKey: 'team.youth_researcher',
+    title: 'Postdoctoral Researchers',
+    roles: ['Postdoc']
+  },
+  {
+    id: 'staff',
+    titleKey: 'team.support',
+    title: 'Research Support',
+    roles: ['Research Assistant']
+  },
+  {
+    id: 'phd',
+    titleKey: 'team.phd',
+    title: 'PhD Students',
+    roles: ['PhD Student']
+  },
+  {
+    id: 'master',
+    titleKey: 'team.master',
+    title: 'Master Students',
+    roles: ['Master Student']
+  },
+  {
+    id: 'undergrad',
+    titleKey: 'team.undergrad',
+    title: 'Undergraduate Students',
+    roles: ['Undergraduate']
+  }
+];
+
+const getRolePriority = (role: string) => {
+  const priorities: Record<string, number> = {
+    'Principal Investigator': 0,
+    'Professor': 1,
+    'Associate Professor': 2,
+    'Assistant Professor': 3,
+    'Postdoc': 4,
+    'Research Assistant': 5,
+    'PhD Student': 6,
+    'Master Student': 7,
+    'Undergraduate': 8,
+  };
+  return priorities[role] ?? 99;
+};
+
+// Group Berkeley-based members by role
+const groupedMembers = groups.reduce((acc, group) => {
+  const members = berkeleyMembers
+    .filter(m => group.roles.includes(m.data.role))
+    .sort((a, b) => {
+      const roleDiff = getRolePriority(a.data.role) - getRolePriority(b.data.role);
+      if (roleDiff !== 0) return roleDiff;
+      return (a.data.weight || 100) - (b.data.weight || 100);
+    });
+
+  if (members.length > 0) {
+    acc.push({ ...group, members });
+  }
+  return acc;
+}, [] as Array<{ id: string, titleKey: string, title: string, roles: string[], members: typeof allMembers }>);
+---
+
+<Layout title="Team">
+  <div class="max-w-7xl mx-auto px-4 py-12 sm:py-20">
+    <div class="max-w-3xl mx-auto text-center mb-16">
+      <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4" data-i18n-key="team.title">Our Team</h1>
+      <p class="text-lg text-gray-600 dark:text-gray-400" data-i18n-key="team.subtitle">
+        Meet the researchers and students behind our work.
+      </p>
+    </div>
+
+    <div class="space-y-20">
+      {groupedMembers.map(group => (
+        <section aria-labelledby={`team-${group.id}`}>
+          <h2 id={`team-${group.id}`} class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-8 pl-4 border-l-4 border-blue-600" data-i18n-key={group.titleKey}>
+            {group.title}
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+            {group.members.map(member => (
+              <TeamCard member={member} />
+            ))}
+          </div>
+        </section>
+      ))}
+
+      {indiaMembers.length > 0 && (
+        <section aria-labelledby="team-india">
+          <h2 id="team-india" class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-8 pl-4 border-l-4 border-blue-600">
+            India Team
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+            {indiaMembers.map(member => (
+              <TeamCard member={member} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {alumniMembers.length > 0 && (
+        <section aria-labelledby="team-alumni">
+          <h2 id="team-alumni" class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-8 pl-4 border-l-4 border-blue-600" data-i18n-key="team.alumni">
+            Alumni
+          </h2>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+            {alumniMembers.map(member => (
+              <TeamCard member={member} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {allMembers.length === 0 && (
+        <p class="text-gray-500 text-center py-12" data-i18n-key="team.noMembers">No team members found. Add markdown files to src/content/team/</p>
+      )}
+    </div>
+  </div>
+</Layout>
