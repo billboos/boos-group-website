@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Toggle-controlled dark mode: the `dark:` variant matches when the root
+   element carries data-theme="dark" (set by the toggle in Header.astro,
+   defaulting to the OS preference on first visit). */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+
+  /* Berkeley palette (see CLAUDE.md "Design system"). Blues carry the design;
+     gold is a decorative accent only and must never be used for body/link text. */
+  --color-berkeley-blue: #003262;   /* Primary dark: nav, headings on light, ~13:1 on white */
+  --color-berkeley-scrim: #042C53;  /* Hero overlay behind title text */
+  --color-berkeley-link: #0C447C;   /* Links, buttons, tags on white */
+  --color-berkeley-tint: #E6F1FB;   /* Section backgrounds; text only on dark navy */
+  --color-berkeley-gold: #FDB515;   /* Non-text accents only */
+  --color-berkeley-body: #1A1A1A;   /* Paragraph text on light surfaces */
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply text-gray-800 bg-white antialiased;
+  @apply dark:bg-gray-950 dark:text-gray-100;
+}
+
+/* Respect reduced-motion preference for any animation/transition site-wide */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible focus indicator in both themes (2.4.7) */
+a, button, input, textarea, select, [tabindex] {
+  outline-offset: 2px;
+}
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible,
+select:focus-visible, [tabindex]:focus-visible {
+  outline: 3px solid var(--color-berkeley-gold);
+  outline-offset: 2px;
+}
+
+/* Skip-to-content link: visually hidden until focused */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3rem;
+  z-index: 100;
+  background: var(--color-berkeley-blue);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  transition: top 0.15s ease-in-out;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Custom Scrollbar for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-50 dark:bg-gray-900;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-700 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}
+
+/* Mobile Menu specific scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-200 dark:bg-gray-700 rounded-full;
+}
