@@ -44,14 +44,14 @@ const formatLabel = (key: string) => {
 const primaryLink = links?.website || links?.pdf || (doi ? `https://doi.org/${doi}` : null);
 ---
 
-<div class="flex flex-col sm:flex-row gap-6 py-8 border-b border-gray-100 dark:border-gray-800 last:border-0 group">
+<div class="flex flex-col sm:flex-row gap-4 py-4 border-b border-gray-100 dark:border-gray-800 last:border-0 group">
   {cover && (
     <div class="shrink-0 w-full sm:w-48 h-32 sm:h-28 rounded-lg overflow-hidden border border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
       <Image src={cover} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" quality={80} format="webp" width={300} />
     </div>
   )}
 
-  <div class="flex-grow space-y-2">
+  <div class="flex-grow space-y-1.5">
     <!-- Title -->
     <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
       {primaryLink ? <a href={primaryLink} target="_blank" rel="noopener noreferrer">{title}</a> : title}
@@ -86,7 +86,7 @@ const primaryLink = links?.website || links?.pdf || (doi ? `https://doi.org/${do
 
     <!-- Links -->
     {Object.keys(allLinks).length > 0 && (
-      <div class="flex flex-wrap gap-3 pt-1">
+      <div class="flex flex-wrap gap-2 pt-0.5">
         {Object.entries(allLinks).map(([key, url]) => {
           if (!url || url === '#') return null;
           const Icon = iconMap[key] || ExternalLink;
