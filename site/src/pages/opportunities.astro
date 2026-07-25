@@ -10,13 +10,13 @@ const { Content } = await render(page);
 ---
 
 <Layout title={page.data.title} description={page.data.description}>
-  <div class="max-w-3xl mx-auto px-4 py-10 sm:py-14">
+  <div class="max-w-3xl mx-auto px-4 py-8 sm:py-10">
     <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-8">{page.data.title}</h1>
     <article class="prose prose-blue dark:prose-invert max-w-none">
       <Content />
     </article>
 
-    <div class="mt-10 bg-gray-50 dark:bg-gray-900 rounded-3xl p-8 sm:p-12 text-center border border-gray-100 dark:border-gray-800">
+    <div class="mt-8 bg-gray-50 dark:bg-gray-900 rounded-3xl p-8 sm:p-12 text-center border border-gray-100 dark:border-gray-800">
       <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-4">Questions?</h2>
       <p class="text-gray-600 dark:text-gray-400 mb-8 max-w-2xl mx-auto">
         Email William Boos with questions about these positions.

@@ -96,21 +96,21 @@ const groupedMembers = groups.reduce((acc, group) => {
 ---
 
 <Layout title="Team">
-  <div class="max-w-7xl mx-auto px-4 py-10 sm:py-14">
-    <div class="max-w-3xl mx-auto text-center mb-10">
+  <div class="max-w-7xl mx-auto px-4 py-8 sm:py-10">
+    <div class="max-w-3xl mx-auto text-center mb-8">
       <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4" data-i18n-key="team.title">Our Team</h1>
       <p class="text-lg text-gray-600 dark:text-gray-400" data-i18n-key="team.subtitle">
         Meet the researchers and students behind our work.
       </p>
     </div>
 
-    <div class="space-y-14">
+    <div class="space-y-10">
       {groupedMembers.map(group => (
         <section aria-labelledby={`team-${group.id}`}>
-          <h2 id={`team-${group.id}`} class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-8 pl-4 border-l-4 border-blue-600" data-i18n-key={group.titleKey}>
+          <h2 id={`team-${group.id}`} class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 pl-4 border-l-4 border-blue-600" data-i18n-key={group.titleKey}>
             {group.title}
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             {group.members.map(member => (
               <TeamCard member={member} />
             ))}
@@ -120,10 +120,10 @@ const groupedMembers = groups.reduce((acc, group) => {
 
       {indiaMembers.length > 0 && (
         <section aria-labelledby="team-india">
-          <h2 id="team-india" class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-8 pl-4 border-l-4 border-blue-600">
+          <h2 id="team-india" class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 pl-4 border-l-4 border-blue-600">
             India Team
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             {indiaMembers.map(member => (
               <TeamCard member={member} />
             ))}
@@ -133,10 +133,10 @@ const groupedMembers = groups.reduce((acc, group) => {
 
       {alumniMembers.length > 0 && (
         <section aria-labelledby="team-alumni">
-          <h2 id="team-alumni" class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-8 pl-4 border-l-4 border-blue-600" data-i18n-key="team.alumni">
+          <h2 id="team-alumni" class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 pl-4 border-l-4 border-blue-600" data-i18n-key="team.alumni">
             Alumni
           </h2>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8">
             {alumniMembers.map(member => (
               <TeamCard member={member} />
             ))}

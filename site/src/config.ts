@@ -1,4 +1,4 @@
-import heroImage from './assets/hero-bangladesh-monsoon.jpg';
+import heroImage from './assets/hero-somali-jet.jpg';
 
 export const SITE = {
   website: 'https://boos.netlify.app/', // TODO: confirm final Netlify URL before merge

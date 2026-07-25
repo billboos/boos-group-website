@@ -16,7 +16,7 @@ const news = (await getCollection('news'))
   .slice(0, 3);
 
 const currentTeam = (await getCollection('team'))
-  .filter((m) => m.data.role !== 'Alumni' && m.data.group !== 'india')
+  .filter((m) => m.data.role !== 'Alumni')
   .sort((a, b) => (a.data.weight || 100) - (b.data.weight || 100));
 
 const sectionCards = [
@@ -43,7 +43,7 @@ const sectionCards = [
 
 <Layout title="Home">
   <!-- Hero -->
-  <section class="relative h-[48vh] min-h-[360px] flex items-end overflow-hidden">
+  <section class="relative h-[42vh] min-h-[320px] flex items-end overflow-hidden">
     <div class="absolute inset-0 z-0">
       <Image
         src={SITE.hero.image}
@@ -51,18 +51,19 @@ const sectionCards = [
         loading="eager"
         fetchpriority="high"
         decoding="sync"
-        quality={70}
+        quality={80}
         format="webp"
         widths={[640, 1024, 1920]}
         sizes="100vw"
         class="w-full h-full object-cover"
       />
-      <!-- Deep navy scrim: guarantees AA contrast for the title regardless of the image underneath -->
-      <div class="absolute inset-0 bg-berkeley-scrim/80"></div>
+      <!-- Bottom-weighted gradient scrim: keeps the image visible up top while
+           still guaranteeing AA contrast for the title where it actually sits. -->
+      <div class="absolute inset-0 bg-[linear-gradient(to_top,rgba(4,44,83,0.92)_0%,rgba(4,44,83,0.55)_40%,rgba(4,44,83,0.1)_75%,transparent_100%)]"></div>
     </div>
 
-    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 sm:pb-10 w-full">
-      <h1 class="text-3xl sm:text-5xl font-bold text-white leading-tight mb-3 max-w-3xl">
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-6 sm:pb-8 w-full">
+      <h1 class="text-3xl sm:text-5xl font-bold text-white leading-tight mb-2 max-w-3xl">
         {SITE.hero.title}
       </h1>
       <p class="text-base sm:text-xl text-berkeley-tint max-w-2xl">
@@ -71,16 +72,34 @@ const sectionCards = [
     </div>
   </section>
 
+  <!-- Our Team -->
+  <section class="py-8 sm:py-10 bg-white dark:bg-gray-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-end mb-5">
+        <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Our team</h2>
+        <a href="/team" class="text-berkeley-link dark:text-blue-300 hover:underline font-medium flex items-center gap-1 group">
+          <span>Meet the full team</span> <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+        </a>
+      </div>
+
+      <div class="grid grid-cols-3 sm:grid-cols-5 md:grid-cols-7 lg:grid-cols-11 gap-x-3 gap-y-6">
+        {currentTeam.map((member) => (
+          <TeamCard member={member} compact />
+        ))}
+      </div>
+    </div>
+  </section>
+
   <!-- Section cards -->
-  <section class="py-10 sm:py-12 bg-gray-50 dark:bg-gray-900">
+  <section class="py-8 sm:py-10 bg-gray-50 dark:bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid gap-4 sm:grid-cols-3">
         {sectionCards.map((card) => (
           <a
             href={card.href}
-            class="group bg-white dark:bg-gray-950 rounded-xl border border-gray-100 dark:border-gray-800 p-5 hover:shadow-md transition-all hover:-translate-y-0.5"
+            class="group bg-white dark:bg-gray-950 rounded-xl border border-gray-100 dark:border-gray-800 p-4 hover:shadow-md transition-all hover:-translate-y-0.5"
           >
-            <div class="w-10 h-10 rounded-lg bg-berkeley-tint dark:bg-blue-950 text-berkeley-blue dark:text-blue-300 flex items-center justify-center mb-3">
+            <div class="w-9 h-9 rounded-lg bg-berkeley-tint dark:bg-blue-950 text-berkeley-blue dark:text-blue-300 flex items-center justify-center mb-2">
               <card.icon className="w-5 h-5" aria-hidden="true" />
             </div>
             <h3 class="text-base font-semibold text-gray-900 dark:text-gray-100 mb-1 group-hover:text-berkeley-link dark:group-hover:text-blue-400">
@@ -93,35 +112,17 @@ const sectionCards = [
     </div>
   </section>
 
-  <!-- Our Team -->
-  <section class="py-10 sm:py-12 bg-white dark:bg-gray-950">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-end mb-6">
-        <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Our team</h2>
-        <a href="/team" class="text-berkeley-link dark:text-blue-300 hover:underline font-medium flex items-center gap-1 group">
-          <span>Meet the full team</span> <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-        </a>
-      </div>
-
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-x-6 gap-y-8">
-        {currentTeam.map((member) => (
-          <TeamCard member={member} />
-        ))}
-      </div>
-    </div>
-  </section>
-
   <!-- Selected Publications -->
-  <section class="py-10 sm:py-12 bg-gray-50 dark:bg-gray-900">
+  <section class="py-8 sm:py-10 bg-white dark:bg-gray-950">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-end mb-6">
+      <div class="flex justify-between items-end mb-5">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Selected publications</h2>
         <a href="/publications" class="text-berkeley-link dark:text-blue-300 hover:underline font-medium flex items-center gap-1 group">
           <span>View all</span> <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
         </a>
       </div>
 
-      <div class="grid gap-5 md:grid-cols-3">
+      <div class="grid gap-4 md:grid-cols-3">
         {papers.map((paper) => {
           const link = paper.data.links?.website || paper.data.links?.pdf || (paper.data.doi ? `https://doi.org/${paper.data.doi}` : '/publications');
           return (
@@ -129,7 +130,7 @@ const sectionCards = [
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              class="bg-white dark:bg-gray-950 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all hover:-translate-y-1 p-5 flex flex-col h-full group"
+              class="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 hover:shadow-md transition-all hover:-translate-y-1 p-4 flex flex-col h-full group"
             >
               <h3 class="text-base font-semibold text-gray-900 dark:text-gray-100 mb-2 line-clamp-3 group-hover:text-berkeley-link dark:group-hover:text-blue-400 transition-colors">
                 {paper.data.title}
@@ -153,18 +154,18 @@ const sectionCards = [
   </section>
 
   <!-- Latest News -->
-  <section class="py-10 sm:py-12 bg-white dark:bg-gray-950">
+  <section class="py-8 sm:py-10 bg-gray-50 dark:bg-gray-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-end mb-6">
+      <div class="flex justify-between items-end mb-5">
         <h2 class="text-2xl font-bold text-gray-900 dark:text-gray-100">Latest news</h2>
         <a href="/news" class="text-berkeley-link dark:text-blue-300 hover:underline font-medium flex items-center gap-1 group">
           <span>View all</span> <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
         </a>
       </div>
 
-      <div class="grid gap-5 md:grid-cols-3">
+      <div class="grid gap-4 md:grid-cols-3">
         {news.map((item) => (
-          <div class="bg-gray-50 dark:bg-gray-900 rounded-xl border border-gray-100 dark:border-gray-800 p-5">
+          <div class="bg-white dark:bg-gray-950 rounded-xl border border-gray-100 dark:border-gray-800 p-4">
             <time datetime={item.data.date.toISOString()} class="text-sm text-gray-500 dark:text-gray-400">
               {item.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
             </time>
