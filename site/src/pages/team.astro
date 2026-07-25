@@ -93,6 +93,12 @@ const groupedMembers = groups.reduce((acc, group) => {
   }
   return acc;
 }, [] as Array<{ id: string, titleKey: string, title: string, roles: string[], members: typeof allMembers }>);
+
+// PI and Postdocs sit side by side (each keeping its own heading) rather
+// than stacked, so pull them out of the generic stacked-group list.
+const piGroup = groupedMembers.find(g => g.id === 'pi');
+const postdocGroup = groupedMembers.find(g => g.id === 'postdoc');
+const stackedGroups = groupedMembers.filter(g => g.id !== 'pi' && g.id !== 'postdoc');
 ---
 
 <Layout title="Team">
@@ -105,7 +111,36 @@ const groupedMembers = groups.reduce((acc, group) => {
     </div>
 
     <div class="space-y-10">
-      {groupedMembers.map(group => (
+      {(piGroup || postdocGroup) && (
+        <div class="flex flex-col md:flex-row gap-10">
+          {piGroup && (
+            <section aria-labelledby={`team-${piGroup.id}`} class="md:shrink-0 md:w-56">
+              <h2 id={`team-${piGroup.id}`} class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 pl-4 border-l-4 border-blue-600" data-i18n-key={piGroup.titleKey}>
+                {piGroup.title}
+              </h2>
+              <div class="grid grid-cols-1 gap-x-6 gap-y-8">
+                {piGroup.members.map(member => (
+                  <TeamCard member={member} />
+                ))}
+              </div>
+            </section>
+          )}
+          {postdocGroup && (
+            <section aria-labelledby={`team-${postdocGroup.id}`} class="flex-1">
+              <h2 id={`team-${postdocGroup.id}`} class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 pl-4 border-l-4 border-blue-600" data-i18n-key={postdocGroup.titleKey}>
+                {postdocGroup.title}
+              </h2>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8">
+                {postdocGroup.members.map(member => (
+                  <TeamCard member={member} />
+                ))}
+              </div>
+            </section>
+          )}
+        </div>
+      )}
+
+      {stackedGroups.map(group => (
         <section aria-labelledby={`team-${group.id}`}>
           <h2 id={`team-${group.id}`} class="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-6 pl-4 border-l-4 border-blue-600" data-i18n-key={group.titleKey}>
             {group.title}
