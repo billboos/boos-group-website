@@ -20,6 +20,7 @@ export async function getStaticPaths() {
     { slug: 'publications', title: 'Publications', subtitle: 'Selected Publications' },
     { slug: 'news', title: 'News', subtitle: 'Latest Updates' },
     { slug: 'data-tools', title: 'Data & Tools', subtitle: 'Datasets and forecasts' },
+    { slug: 'teaching', title: 'Teaching', subtitle: 'Courses taught by William Boos' },
     { slug: 'opportunities', title: 'Opportunities', subtitle: 'Open Positions' },
   ];
 

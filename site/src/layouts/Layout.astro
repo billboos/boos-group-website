@@ -14,7 +14,7 @@ const pageTitle = title ? `${title} | ${SITE.labName}` : `${SITE.labName} - ${SI
 
 const currentPath = Astro.url.pathname.replace(/^\/|\/$/g, '');
 const ogSlug = currentPath === '' ? 'index' : currentPath;
-const supportedOgPages = ['index', 'about', 'research', 'team', 'publications', 'news', 'data-tools', 'opportunities'];
+const supportedOgPages = ['index', 'about', 'research', 'team', 'publications', 'news', 'data-tools', 'teaching', 'opportunities'];
 const finalOgSlug = supportedOgPages.includes(ogSlug) ? ogSlug : 'index';
 const ogImage = new URL(`/og/${finalOgSlug}.png`, Astro.url);
 

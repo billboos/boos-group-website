@@ -34,6 +34,7 @@ export const SITE = {
     { text: 'People', link: '/team', key: 'team' },
     { text: 'Publications', link: '/publications', key: 'publications' },
     { text: 'Data & Tools', link: '/data-tools', key: 'data-tools' },
+    { text: 'Teaching', link: '/teaching', key: 'teaching' },
     { text: 'Opportunities', link: '/opportunities', key: 'opportunities' },
     { text: 'Search', link: '/search', key: 'search' },
   ],
