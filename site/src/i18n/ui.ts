@@ -76,7 +76,7 @@ export const ui = {
     'news.title': 'News & Updates',
     'news.noNews': 'No news yet.',
 
-    'team.title': 'Our Team',
+    'team.title': 'Team',
     'team.subtitle': 'Meet the researchers and students behind our innovations.',
     'team.pi': 'Principal Investigator',
     'team.faculty': 'Faculty',
@@ -90,7 +90,7 @@ export const ui = {
     'team.master': 'Master Students',
     'team.graduate': 'Graduate Students',
     'team.undergrad': 'Undergraduate Students',
-    'team.alumni': 'Alumni',
+    'team.alumni': 'Recent Alumni',
     'team.former': 'Former Member',
     'team.noMembers': 'No team members found.',
 

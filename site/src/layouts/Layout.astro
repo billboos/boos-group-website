@@ -112,7 +112,7 @@ const year = new Date(Date.now()).getFullYear();
       </div>
     </footer>
 
-    <script is:inline define:vars={{ ui, defaultLang }}>
+    <script is:inline define:vars={{ ui, defaultLang, i18nEnabled: SITE.i18n.enabled }}>
       // Make ui available globally for debugging if needed, but main logic is here
       const translations = ui;
       const fallbackLang = defaultLang;
@@ -147,10 +147,15 @@ const year = new Date(Date.now()).getFullYear();
         window.dispatchEvent(new CustomEvent('language-change', { detail: { lang } }));
       };
 
-      // Initialize
-      const currentLang = getStoredLang();
-      // Run immediately to avoid flash
-      window.setLanguage(currentLang);
+      // Initialize. Skipped entirely while the language switcher is disabled
+      // (SITE.i18n.enabled = false) so this never clobbers hand-edited page
+      // text with a stale entry from this dictionary - every page's static
+      // English text is the source of truth unless i18n is turned back on
+      // and this dictionary is audited to match.
+      if (i18nEnabled) {
+        const currentLang = getStoredLang();
+        window.setLanguage(currentLang);
+      }
     </script>
 
     <script is:inline>
