@@ -16,12 +16,23 @@ const showOverlay = !compact && role !== 'Alumni';
 <div class="group flex flex-col items-center text-center">
   <!-- Avatar Container -->
   <div class={`relative ${avatarSize} ${compact ? 'mb-2' : 'mb-3'} rounded-xl overflow-hidden bg-gray-100 group-hover:shadow-lg transition-shadow`}>
-    <img
-      src={avatar.src}
-      alt={name}
-      class="w-full h-full object-cover"
-      loading="lazy"
-    />
+    {compact ? (
+      <a href="/team" class="block w-full h-full" aria-label="Meet the full team">
+        <img
+          src={avatar.src}
+          alt={name}
+          class="w-full h-full object-cover"
+          loading="lazy"
+        />
+      </a>
+    ) : (
+      <img
+        src={avatar.src}
+        alt={name}
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+    )}
 
     {showOverlay && (
       <!-- Social Overlay (appears on hover, or keyboard focus of a button inside it) -->
