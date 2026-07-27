@@ -5,7 +5,7 @@ year: 2023
 venue: "Proceedings of the National Academy of Sciences of the U.S.A."
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1073/pnas.2215278120"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

@@ -3,6 +3,7 @@ name: "Shrabani Tripathy"
 role: "Research Assistant"
 group: "india"
 title: ["Lead Researcher, Development Innovation Lab India"]
+shortTitle: "Lead Researcher"
 avatar: "../../assets/team/shrabani-tripathy.jpeg"
 bio: "Ph.D. Climate Studies, IIT Bombay"
 email: "sstripathy@uchicagotrust.org"

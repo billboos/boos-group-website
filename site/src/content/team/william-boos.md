@@ -3,6 +3,7 @@ name: "William Boos"
 role: "Principal Investigator"
 group: "berkeley"
 title: ["Professor, Earth & Planetary Science", "Faculty Scientist, Lawrence Berkeley National Lab"]
+shortTitle: "Professor"
 avatar: "../../assets/team/william-boos.jpg"
 bio: "Ph.D. Atmospheric Science, MIT"
 email: "william.boos@berkeley.edu"

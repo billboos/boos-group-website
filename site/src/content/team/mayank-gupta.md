@@ -3,6 +3,7 @@ name: "Mayank Gupta"
 role: "Postdoc"
 group: "india"
 title: ["Lead Researcher, Development Innovation Lab India"]
+shortTitle: "Lead Researcher"
 avatar: "../../assets/team/mayank-gupta.jpg"
 bio: "Ph.D. Urban Science and Engineering, IIT Bombay"
 email: "gmayank@uchicagotrust.org"

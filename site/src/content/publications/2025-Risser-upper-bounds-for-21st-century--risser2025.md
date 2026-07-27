@@ -5,7 +5,7 @@ year: 2025
 venue: "Environmental Research Letters"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1088/1748-9326/adda62"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

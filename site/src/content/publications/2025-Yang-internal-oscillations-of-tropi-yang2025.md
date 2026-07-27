@@ -5,7 +5,7 @@ year: 2025
 venue: "Journal of the Atmospheric Sciences"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1175/JAS-D-24-0282.1"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

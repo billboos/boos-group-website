@@ -20,7 +20,7 @@ export const SITE = {
   // Hero Section (Home Page)
   hero: {
     title: 'Atmospheric dynamics & tropical climate',
-    subtitle: 'The Boos research group at UC Berkeley studies the circulations, monsoons, and extreme weather that move heat and water around the planet.',
+    subtitle: 'Advancing understanding and prediction of the atmospheric circulations that control the flow of water and heat around the planet.',
     action: 'View Publications',
     image: heroImage,
   },

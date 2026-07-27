@@ -5,7 +5,7 @@ year: 2025
 venue: "Journal of Climate"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1175/JCLI-D-24-0169.1"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

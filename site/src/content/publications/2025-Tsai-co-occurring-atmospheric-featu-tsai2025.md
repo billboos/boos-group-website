@@ -5,7 +5,7 @@ year: 2025
 venue: "Journal of Geophysical Research: Atmospheres"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1029/2024JD041687"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

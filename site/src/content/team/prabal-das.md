@@ -3,6 +3,7 @@ name: "Prabal Das"
 role: "Research Assistant"
 group: "india"
 title: ["Lead Researcher, Development Innovation Lab India"]
+shortTitle: "Lead Researcher"
 avatar: "../../assets/team/prabal-das.jpeg"
 bio: "Ph.D. Engineering, IIT Dhanbad"
 email: "prabal@uchicagotrust.org"

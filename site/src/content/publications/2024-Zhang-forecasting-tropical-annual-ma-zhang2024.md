@@ -5,7 +5,7 @@ year: 2024
 venue: "Geophysical Research Letters"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1029/2023GL106990"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

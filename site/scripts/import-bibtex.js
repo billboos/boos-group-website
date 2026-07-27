@@ -111,8 +111,10 @@ function importBibtex() {
       }
     }
     
-    // PDF link
-    let pdf = cleanString(tags.pdf || tags.file || tags.url || '');
+    // PDF link. Deliberately does NOT fall back to tags.url (the DOI link) -
+    // a "PDF" button should only ever appear when there's an actual PDF to
+    // download; otherwise the DOI button alone covers it.
+    let pdf = cleanString(tags.pdf || tags.file || '');
     if (pdf.startsWith(':')) {
       const parts = pdf.split(':');
       if (parts.length >= 2 && parts[1].trim() !== '') {

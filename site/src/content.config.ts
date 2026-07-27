@@ -73,6 +73,7 @@ const team = defineCollection({
     // by role regardless of this field. See src/pages/team.astro.
     group: z.enum(['berkeley', 'india']).default('berkeley'),
     title: z.array(z.string()).optional(), // For specific academic titles like "Academician", "Changjiang Scholar"
+    shortTitle: z.string().optional(), // Short label for the compact homepage card; falls back to role
     avatar: image(),
     bio: z.string().optional(), // Short bio for card
     email: z.string().optional(),

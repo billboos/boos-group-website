@@ -3,6 +3,7 @@ name: "Anustup Biswas"
 role: "Research Assistant"
 group: "india"
 title: ["Data Scientist, Development Innovation Lab India"]
+shortTitle: "Data Scientist"
 avatar: "../../assets/team/anustup-biswas.jpg"
 bio: "M.Tech. Water Resources Engineering, IIT Bombay"
 email: "anustupb@uchicagotrust.org"

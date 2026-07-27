@@ -5,7 +5,7 @@ year: 2026
 venue: "Geophysical Research Letters"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1029/2025GL120128"
+  pdf: ""
   code: ""
   website: ""
   demo: ""

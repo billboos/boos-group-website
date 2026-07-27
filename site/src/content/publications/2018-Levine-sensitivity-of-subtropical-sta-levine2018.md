@@ -5,7 +5,7 @@ year: 2018
 venue: "Climate Dynamics"
 type: "paper"
 links:
-  pdf: "https://doi.org/10.1007/s00382-018-4419-5"
+  pdf: ""
   code: ""
   website: ""
   demo: ""
