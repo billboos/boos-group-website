@@ -5,7 +5,7 @@ group: "india"
 title: ["Lead Researcher, Development Innovation Lab India"]
 avatar: "../../assets/team/mayank-gupta.jpg"
 bio: "Ph.D. Urban Science and Engineering, IIT Bombay"
-email: "mayankgupta1990@gmail.com"
+email: "gmayank@uchicagotrust.org"
 googleScholar: "https://scholar.google.com/citations?user=pWoobSQAAAAJ&hl=en"
 linkedin: "https://www.linkedin.com/in/mayank-gupta-b32a3225/"
 weight: 40
