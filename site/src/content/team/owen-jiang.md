@@ -2,8 +2,8 @@
 name: "Owen Jiang"
 role: "Undergraduate"
 group: "berkeley"
-avatar: "../../assets/team/placeholder-avatar.svg"
-bio: "Bio and photo coming soon"
+avatar: "../../assets/team/owen-jiang.jpeg"
+bio: "Earth and Planetary Science major"
 weight: 31
 ---
-Profile details to be added.
+Owen is an undergraduate intern in the group, majoring in Earth and Planetary Science.

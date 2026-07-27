@@ -3,8 +3,8 @@ name: "Nimrod Gavriel"
 role: "Postdoc"
 group: "berkeley"
 title: ["Rothschild Postdoctoral Fellow"]
-avatar: "../../assets/team/placeholder-avatar.svg"
-bio: "Bio and photo coming soon"
+avatar: "../../assets/team/nimrod-gavriel.jpeg"
+bio: "Ph.D. Atmospheric Dynamics, Weizmann Institute of Science"
 weight: 11
 ---
-Profile details to be added.
+Nimrod is a Rothschild Postdoctoral Fellow in the group. He holds a Ph.D. in Atmospheric Dynamics from the Weizmann Institute of Science.

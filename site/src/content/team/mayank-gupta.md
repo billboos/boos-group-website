@@ -2,7 +2,7 @@
 name: "Mayank Gupta"
 role: "Postdoc"
 group: "india"
-title: ["Lead Researcher, U Chicago Trust monsoon prediction project"]
+title: ["Lead Researcher, Development Innovation Lab India"]
 avatar: "../../assets/team/mayank-gupta.jpg"
 bio: "Ph.D. Urban Science and Engineering, IIT Bombay"
 email: "mayankgupta1990@gmail.com"

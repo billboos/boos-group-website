@@ -2,8 +2,9 @@
 name: "Prabal Das"
 role: "Research Assistant"
 group: "india"
-avatar: "../../assets/team/placeholder-avatar.svg"
-bio: "Bio and photo coming soon"
+title: ["Lead Researcher, Development Innovation Lab India"]
+avatar: "../../assets/team/prabal-das.jpeg"
+bio: "Ph.D. Engineering, IIT Dhanbad"
 weight: 51
 ---
-Profile details to be added.
+Prabal is a Lead Researcher with the Development Innovation Lab India. He holds a Ph.D. in Engineering from IIT Dhanbad.

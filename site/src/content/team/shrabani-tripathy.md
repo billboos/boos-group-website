@@ -2,8 +2,9 @@
 name: "Shrabani Tripathy"
 role: "Research Assistant"
 group: "india"
-avatar: "../../assets/team/placeholder-avatar.svg"
-bio: "Bio and photo coming soon"
+title: ["Lead Researcher, Development Innovation Lab India"]
+avatar: "../../assets/team/shrabani-tripathy.jpeg"
+bio: "Ph.D. Climate Studies, IIT Bombay"
 weight: 50
 ---
-Profile details to be added.
+Shrabani is a Lead Researcher with the Development Innovation Lab India. She holds a Ph.D. in Climate Studies from IIT Bombay.

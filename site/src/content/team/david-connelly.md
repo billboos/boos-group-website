@@ -2,9 +2,8 @@
 name: "David Connelly"
 role: "Postdoc"
 group: "berkeley"
-title: ["Postdoctoral Scholar"]
-avatar: "../../assets/team/placeholder-avatar.svg"
-bio: "Bio and photo coming soon"
+avatar: "../../assets/team/david-connelly.jpeg"
+bio: "Ph.D. Atmosphere Ocean Science and Mathematics, New York University"
 weight: 12
 ---
-Profile details to be added.
+David is a Postdoc in the group. He holds a Ph.D. in Atmosphere Ocean Science and Mathematics from New York University.
