@@ -1,5 +1,5 @@
 ---
-import { Mail, Globe, Twitter, GraduationCap } from 'lucide-react';
+import { Mail, Globe, FileText, Twitter, GraduationCap } from 'lucide-react';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { member, compact = false } = Astro.props;
-const { name, role, shortTitle, avatar, bio, email, website, linkedin, github, twitter, googleScholar } = member.data;
+const { name, role, shortTitle, avatar, bio, email, website, cv, linkedin, github, twitter, googleScholar } = member.data;
 const avatarSize = compact ? 'w-20 h-20 sm:w-24 sm:h-24' : 'w-48 h-48';
 const showOverlay = !compact && role !== 'Alumni';
 ---
@@ -35,6 +35,11 @@ const showOverlay = !compact && role !== 'Alumni';
         {website && (
           <a href={website} target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full text-gray-700 hover:text-blue-600 focus-visible:text-blue-600 hover:scale-110 transition-all" title="Website" aria-label={`${name}'s website`}>
             <Globe className="w-4 h-4" />
+          </a>
+        )}
+        {cv && (
+          <a href={cv} target="_blank" rel="noopener noreferrer" class="p-2 bg-white rounded-full text-gray-700 hover:text-blue-600 focus-visible:text-blue-600 hover:scale-110 transition-all" title="CV" aria-label={`${name}'s CV`}>
+            <FileText className="w-4 h-4" />
           </a>
         )}
         {linkedin && (

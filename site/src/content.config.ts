@@ -78,6 +78,7 @@ const team = defineCollection({
     bio: z.string().optional(), // Short bio for card
     email: z.string().optional(),
     website: z.string().optional(),
+    cv: z.string().optional(), // Link to a CV/resume file, shown with its own icon (not the generic globe)
     linkedin: z.string().optional(),
     github: z.string().optional(),
     twitter: z.string().optional(),
