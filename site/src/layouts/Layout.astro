@@ -1,0 +1,182 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import { SITE } from '../config';
+import { ui, defaultLang } from '../i18n/ui';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title, description = SITE.description } = Astro.props;
+const pageTitle = title ? `${title} | ${SITE.labName}` : `${SITE.labName} - ${SITE.university}`;
+
+const currentPath = Astro.url.pathname.replace(/^\/|\/$/g, '');
+const ogSlug = currentPath === '' ? 'index' : currentPath;
+const supportedOgPages = ['index', 'about', 'research', 'team', 'publications', 'news', 'data-tools', 'teaching', 'opportunities'];
+const finalOgSlug = supportedOgPages.includes(ogSlug) ? ogSlug : 'index';
+const ogImage = new URL(`/og/${finalOgSlug}.png`, Astro.url);
+
+const year = new Date(Date.now()).getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self';" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{pageTitle}</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={Astro.url} />
+    <meta property="twitter:title" content={pageTitle} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={ogImage} />
+
+    {
+      Astro.url.pathname === '/' && (
+        <script is:inline type="application/ld+json" set:html={JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": SITE.author,
+          "url": SITE.website,
+          "image": new URL(SITE.avatar || SITE.logo, SITE.website).href,
+          "jobTitle": "Principal Investigator",
+          "worksFor": {
+            "@type": "Organization",
+            "name": SITE.labName,
+            "url": SITE.website
+          },
+          "description": SITE.description
+        })} />
+      )
+    }
+
+    <!-- Set light/dark theme before paint to avoid a flash. Defaults to the
+         visitor's OS preference until they use the toggle in the header. -->
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('preferred-theme');
+          var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a href="#main-content" class="skip-link">Skip to content</a>
+    <Header />
+    <main id="main-content" tabindex="-1" class="flex-grow" data-pagefind-body>
+      <slot />
+    </main>
+
+    <footer class="border-t border-gray-100 dark:border-gray-800 py-8 mt-8 bg-gray-50 dark:bg-gray-900">
+      <div class="max-w-7xl mx-auto px-4 grid gap-8 sm:grid-cols-2 text-sm">
+        <div>
+          <p class="font-semibold text-gray-900 dark:text-gray-100 mb-2">{SITE.labName}</p>
+          <p class="text-gray-600 dark:text-gray-400">
+            Department of Earth &amp; Planetary Science<br />
+            University of California, Berkeley<br />
+            413 McCone Hall, Berkeley, CA 94720
+          </p>
+        </div>
+        <nav aria-label="Footer">
+          <p class="font-semibold text-gray-900 dark:text-gray-100 mb-2">Explore</p>
+          <ul class="space-y-1 text-gray-600 dark:text-gray-400">
+            <li><a href="/about" class="hover:underline hover:text-berkeley-link dark:hover:text-blue-300">About</a></li>
+            <li><a href="/team" class="hover:underline hover:text-berkeley-link dark:hover:text-blue-300">People</a></li>
+            <li><a href="/publications" class="hover:underline hover:text-berkeley-link dark:hover:text-blue-300">Publications</a></li>
+            <li><a href="/data-tools" class="hover:underline hover:text-berkeley-link dark:hover:text-blue-300">Data &amp; Tools</a></li>
+            <li><a href="/opportunities" class="hover:underline hover:text-berkeley-link dark:hover:text-blue-300">Opportunities</a></li>
+            <li><a href="/news" class="hover:underline hover:text-berkeley-link dark:hover:text-blue-300">News</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="max-w-7xl mx-auto px-4 mt-8 pt-5 border-t border-gray-200 dark:border-gray-800 text-center text-gray-500 dark:text-gray-500 text-xs">
+        <p>&copy; {year} {SITE.labName}. Built with <a href="https://github.com/fjd2004711/scholar-lite" target="_blank" rel="noopener noreferrer" class="hover:underline">Scholar-Lite</a>.</p>
+      </div>
+    </footer>
+
+    <script is:inline define:vars={{ ui, defaultLang, i18nEnabled: SITE.i18n.enabled }}>
+      // Make ui available globally for debugging if needed, but main logic is here
+      const translations = ui;
+      const fallbackLang = defaultLang;
+
+      function getStoredLang() {
+        if (typeof localStorage !== 'undefined') {
+          return localStorage.getItem('preferred-lang') || fallbackLang;
+        }
+        return fallbackLang;
+      }
+
+      // Expose global setLanguage function
+      window.setLanguage = (lang) => {
+        localStorage.setItem('preferred-lang', lang);
+        document.documentElement.lang = lang;
+
+        // Update all elements with data-i18n-key
+        const elements = document.querySelectorAll('[data-i18n-key]');
+        elements.forEach(el => {
+          const key = el.getAttribute('data-i18n-key');
+          if (key && translations[lang] && translations[lang][key]) {
+            // Check if it's an input/textarea with placeholder
+            if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+              el.placeholder = translations[lang][key];
+            } else {
+              el.textContent = translations[lang][key];
+            }
+          }
+        });
+
+        // Dispatch event for other components (like Header)
+        window.dispatchEvent(new CustomEvent('language-change', { detail: { lang } }));
+      };
+
+      // Initialize. Skipped entirely while the language switcher is disabled
+      // (SITE.i18n.enabled = false) so this never clobbers hand-edited page
+      // text with a stale entry from this dictionary - every page's static
+      // English text is the source of truth unless i18n is turned back on
+      // and this dictionary is audited to match.
+      if (i18nEnabled) {
+        const currentLang = getStoredLang();
+        window.setLanguage(currentLang);
+      }
+    </script>
+
+    <script is:inline>
+      // Dark mode toggle, wired up here so it works across every page.
+      (function () {
+        function apply(theme) {
+          document.documentElement.setAttribute('data-theme', theme);
+          localStorage.setItem('preferred-theme', theme);
+          document.querySelectorAll('[data-theme-toggle]').forEach((btn) => {
+            btn.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+          });
+        }
+        window.toggleTheme = function () {
+          const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+          apply(current === 'dark' ? 'light' : 'dark');
+        };
+        document.addEventListener('DOMContentLoaded', () => {
+          const current = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+          apply(current);
+        });
+      })();
+    </script>
+  </body>
+</html>

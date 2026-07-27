@@ -1,7 +1,7 @@
 # IDEs
 .idea/
 
-# Hugo
+# Hugo (old site; root-anchored so it doesn't also match site/public/ for the new Astro site)
 /resources/
-public/
-assets/jsconfig.json
+/public/
+/assets/jsconfig.json

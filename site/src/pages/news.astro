@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allNews = (await getCollection('news')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<Layout title="News" description="Latest updates from the Boos research group, drawn from William Boos's Bluesky posts.">
+  <div class="max-w-4xl mx-auto px-4 py-8 sm:py-10">
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold text-gray-900 dark:text-gray-100 mb-4">News</h1>
+      <p class="text-gray-600 dark:text-gray-400">
+        Updates from William Boos's <a href="https://bsky.app/profile/billboos.bsky.social" class="text-berkeley-link dark:text-blue-300 hover:underline" target="_blank" rel="noopener noreferrer">Bluesky profile</a>, refreshed on every site rebuild.
+      </p>
+    </div>
+
+    <div class="border-l-2 border-gray-100 dark:border-gray-800 pl-8 space-y-12">
+      {allNews.map(item => (
+        <div class="relative">
+          <span class="absolute -left-[37px] top-1.5 w-4 h-4 rounded-full bg-blue-100 dark:bg-blue-900 border-2 border-white dark:border-gray-950 ring-1 ring-blue-600" aria-hidden="true"></span>
+          <time datetime={item.data.date.toISOString()} class="block text-sm text-gray-500 dark:text-gray-400 mb-2">
+            {item.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+          </time>
+          <h2 class="text-xl font-bold text-gray-900 dark:text-gray-100 mb-2">{item.data.title}</h2>
+          {item.data.summary && item.data.summary !== item.data.title && (
+            <p class="text-gray-600 dark:text-gray-400 mb-3">{item.data.summary}</p>
+          )}
+          {item.data.link && (
+            <a href={item.data.link} target="_blank" rel="noopener noreferrer" class="text-sm font-medium text-berkeley-link dark:text-blue-300 hover:underline">
+              View on Bluesky
+            </a>
+          )}
+        </div>
+      ))}
+
+      {allNews.length === 0 && (
+        <p class="text-gray-500 dark:text-gray-400 italic">No news yet.</p>
+      )}
+    </div>
+  </div>
+</Layout>

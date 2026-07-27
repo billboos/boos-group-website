@@ -1,0 +1,109 @@
+---
+import { FileText, Github, Play, MonitorPlay, Video, ExternalLink, Globe, Sparkles, BookMarked } from 'lucide-react';
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'publications'>;
+}
+
+const { entry } = Astro.props;
+const { title, authors, year, venue, links, doi, award, cover, badges } = entry.data;
+
+// Fold the DOI in alongside the BibTeX-derived links so it renders as its
+// own button (CLAUDE.md: "auto-generated PDF/Code/DOI buttons").
+const allLinks = { ...(links || {}), ...(doi ? { doi: `https://doi.org/${doi}` } : {}) };
+
+const iconMap: Record<string, any> = {
+  pdf: FileText,
+  code: Github,
+  demo: Play,
+  slides: MonitorPlay,
+  video: Video,
+  website: Globe,
+  doi: BookMarked,
+};
+
+const badgeStyles: Record<string, string> = {
+  gold: "bg-gradient-to-r from-amber-50 to-yellow-50 text-amber-700 border-amber-200 shadow-sm",
+  blue: "bg-blue-50 text-blue-700 border-blue-100",
+  red: "bg-rose-50 text-rose-700 border-rose-100",
+  green: "bg-emerald-50 text-emerald-700 border-emerald-100",
+  default: "bg-gray-50 text-gray-700 border-gray-200"
+};
+
+// Helper to format link label (e.g., "pdf" -> "PDF")
+const formatLabel = (key: string) => {
+  if (key === 'pdf') return 'PDF';
+  if (key === 'doi') return 'DOI';
+  if (key === 'github') return 'Code';
+  if (key === 'website') return 'Project';
+  return key.charAt(0).toUpperCase() + key.slice(1);
+};
+
+const primaryLink = links?.website || links?.pdf || (doi ? `https://doi.org/${doi}` : null);
+---
+
+<div class="flex flex-col sm:flex-row gap-4 py-4 border-b border-gray-100 dark:border-gray-800 last:border-0 group">
+  {cover && (
+    <div class="shrink-0 w-full sm:w-48 h-32 sm:h-28 rounded-lg overflow-hidden border border-gray-100 dark:border-gray-800 bg-gray-50 dark:bg-gray-900">
+      <Image src={cover} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" quality={80} format="webp" width={300} />
+    </div>
+  )}
+
+  <div class="flex-grow space-y-1.5">
+    <!-- Title -->
+    <h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100 leading-tight group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+      {primaryLink ? <a href={primaryLink} target="_blank" rel="noopener noreferrer">{title}</a> : title}
+    </h3>
+
+    <!-- Authors -->
+    <div class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+      {authors.join(', ')}
+    </div>
+
+    <!-- Venue & Year & Badges -->
+    <div class="flex items-center flex-wrap gap-2 text-sm text-gray-500 dark:text-gray-400">
+      <span class="font-medium text-gray-800 dark:text-gray-200">{venue}</span>
+      <span>·</span>
+      <span>{year}</span>
+
+      {/* Legacy award support (fallback) */}
+      {award && !badges && (
+        <span class="px-2 py-0.5 rounded-full bg-gradient-to-r from-amber-50 to-yellow-50 text-amber-700 text-xs font-medium border border-amber-200 flex items-center gap-1 shadow-sm">
+          <Sparkles className="w-3 h-3" aria-hidden="true" /> {award}
+        </span>
+      )}
+
+      {/* New Badges System */}
+      {badges && badges.map(badge => (
+        <span class={`px-2 py-0.5 rounded-full text-xs font-medium border flex items-center gap-1 ${badgeStyles[badge.type] || badgeStyles.default}`}>
+           {badge.type === 'gold' && <Sparkles className="w-3 h-3" aria-hidden="true" />}
+           {badge.text}
+        </span>
+      ))}
+    </div>
+
+    <!-- Links -->
+    {Object.keys(allLinks).length > 0 && (
+      <div class="flex flex-wrap gap-2 pt-0.5">
+        {Object.entries(allLinks).map(([key, url]) => {
+          if (!url || url === '#') return null;
+          const Icon = iconMap[key] || ExternalLink;
+          return (
+            <a
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1.5 px-3 py-1 text-xs font-medium text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 rounded-md hover:text-blue-600 dark:hover:text-blue-400 hover:border-blue-200 dark:hover:border-blue-800 hover:bg-blue-50 dark:hover:bg-blue-950 transition-all"
+            >
+              <Icon className="w-3.5 h-3.5" aria-hidden="true" />
+              {formatLabel(key)}
+              <span class="sr-only">{`for ${title}`}</span>
+            </a>
+          );
+        })}
+      </div>
+    )}
+  </div>
+</div>
